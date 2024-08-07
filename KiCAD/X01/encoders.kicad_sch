@@ -5637,7 +5637,7 @@
 			(uuid "50d25876-473a-4150-93f6-e62823d62b71")
 		)
 		(instances
-			(project ""
+			(project "R3M1XXX"
 				(path "/734751e6-bef2-4814-98c0-5802ec8506b2/1f2cf491-dbdb-4a6a-9515-9e3b3af8ab6f"
 					(reference "U1")
 					(unit 1)
@@ -5861,7 +5861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_B3"
 			(at 160.02 133.3499 0)
 			(effects
 				(font
@@ -6610,7 +6610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_B1"
 			(at 127 134.6199 0)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 			(uuid "81b7a87a-50a2-4c46-9211-a1140e1a8ef8")
 		)
 		(instances
-			(project ""
+			(project "R3M1XXX"
 				(path "/734751e6-bef2-4814-98c0-5802ec8506b2/1f2cf491-dbdb-4a6a-9515-9e3b3af8ab6f"
 					(reference "J1")
 					(unit 1)
@@ -7726,7 +7726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Conn_B2"
 			(at 125.73 161.2899 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 			(uuid "732ef827-1985-4b45-96ae-6c0e869366de")
 		)
 		(instances
-			(project ""
+			(project "R3M1XXX"
 				(path "/734751e6-bef2-4814-98c0-5802ec8506b2/1f2cf491-dbdb-4a6a-9515-9e3b3af8ab6f"
 					(reference "J4")
 					(unit 1)
@@ -9055,7 +9055,7 @@
 			(uuid "7ad118d9-e95c-4ff0-b5a1-afad08d92e76")
 		)
 		(instances
-			(project ""
+			(project "R3M1XXX"
 				(path "/734751e6-bef2-4814-98c0-5802ec8506b2/1f2cf491-dbdb-4a6a-9515-9e3b3af8ab6f"
 					(reference "U3")
 					(unit 1)
@@ -9688,7 +9688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_B4"
 			(at 158.75 157.4799 0)
 			(effects
 				(font
@@ -11176,7 +11176,7 @@
 			(uuid "8e42f980-0d53-417d-a8ac-0fc50ed29877")
 		)
 		(instances
-			(project ""
+			(project "R3M1XXX"
 				(path "/734751e6-bef2-4814-98c0-5802ec8506b2/1f2cf491-dbdb-4a6a-9515-9e3b3af8ab6f"
 					(reference "D1")
 					(unit 1)

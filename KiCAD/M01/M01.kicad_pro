@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "R3M1XXX.kicad_pro",
+    "filename": "M01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -383,16 +383,24 @@
   },
   "sheets": [
     [
-      "734751e6-bef2-4814-98c0-5802ec8506b2",
+      "3983ec4c-5b8c-4717-b463-a25263084aba",
       "Root"
     ],
     [
-      "298e41af-8a22-4894-a83a-48b537d8c39b",
-      "FX"
+      "6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0",
+      "Global VU"
     ],
     [
-      "1f2cf491-dbdb-4a6a-9515-9e3b3af8ab6f",
-      "Encoders"
+      "58be469c-79c1-404e-880c-b6416360c8ea",
+      "EQ Pots"
+    ],
+    [
+      "d906b66e-96c4-4409-ab87-d5810e49d9a3",
+      "Filters"
+    ],
+    [
+      "425b08d0-1a70-428d-815c-9be10b8359d3",
+      "Channels"
     ]
   ],
   "text_variables": {}
