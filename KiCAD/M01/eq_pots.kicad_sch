@@ -1035,6 +1035,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1259,15 +1341,15 @@
 		(uuid "597d4037-88eb-496a-b77b-0bf55743710a")
 	)
 	(no_connect
-		(at 176.53 80.01)
+		(at 176.53 62.23)
 		(uuid "0d48d389-1a17-4aad-a371-0bf633b28221")
 	)
 	(no_connect
-		(at 176.53 74.93)
+		(at 176.53 44.45)
 		(uuid "1d1ac3d5-e588-4c5c-8796-c2eb2e88a84f")
 	)
 	(no_connect
-		(at 176.53 77.47)
+		(at 176.53 46.99)
 		(uuid "207ae4c0-7174-42d4-a7a4-5b7fb6da146e")
 	)
 	(no_connect
@@ -1275,7 +1357,7 @@
 		(uuid "94174f10-e5af-4b0c-87b7-dbee0ac0d579")
 	)
 	(no_connect
-		(at 176.53 82.55)
+		(at 176.53 64.77)
 		(uuid "b6ca0a65-5da1-4b7d-8335-93050aeee95b")
 	)
 	(wire
@@ -1488,709 +1570,357 @@
 		)
 		(uuid "f1dd7995-4076-4409-8996-70a26b8b7d1e")
 	)
-	(global_label "MPLEX-S3"
-		(shape input)
-		(at 151.13 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "119e4ae1-c4e6-41fa-960f-8fbd081fc2ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0454 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R1"
-		(shape input)
-		(at 176.53 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "198ca817-74d1-4f48-b4a7-6d00bc52beab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-C2"
-		(shape input)
-		(at 176.53 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d16ceb3-4126-4127-80c8-e0a35fa3274d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-L2"
-		(shape input)
-		(at 176.53 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f52418a-5605-476b-a251-ba6163471624")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-C3"
-		(shape input)
-		(at 73.66 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2452b5a4-198f-4c79-9a9c-a948db0082c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.2652 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-S0"
-		(shape input)
-		(at 179.07 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29861807-1a58-41f2-a17b-e3c3284f4c5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9854 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-L4"
-		(shape input)
-		(at 176.53 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e3798bb-6b2e-4b0c-ae87-307b44ed0232")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R1"
-		(shape input)
-		(at 102.87 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "330e487a-f9ff-4275-aa2b-7c4ce6a155d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4752 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-S1"
-		(shape input)
-		(at 151.13 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40d39a57-f924-44e4-a66a-b7e26ec2d81e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0454 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-L2"
-		(shape input)
-		(at 43.18 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4af178a7-79c1-4f25-8abc-9ebb7030ea8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.5433 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-S3"
-		(shape input)
-		(at 179.07 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f8d215b-64c2-495e-a867-ac176802d2d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9854 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R3"
-		(shape input)
-		(at 102.87 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50e11b2d-adf0-46b3-ada8-2c584df37553")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4752 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R2"
-		(shape input)
-		(at 176.53 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6184a2f4-90ff-4988-a129-6e14aa5b01d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-L1"
-		(shape input)
-		(at 43.18 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65e27850-a981-49f6-bd04-1faa6cde879a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.5433 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-S0"
-		(shape input)
-		(at 151.13 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f5a23e7-7f9d-4c5c-8486-7dbbf05e1275")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0454 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-C1"
-		(shape input)
-		(at 176.53 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8042b08d-9370-4c3b-90af-407f7ecd214d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R4"
-		(shape input)
-		(at 176.53 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8594b203-5e04-41fe-8471-e828650c5625")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-C2"
-		(shape input)
-		(at 73.66 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b9b9817-2ce3-4b9a-af4f-4f51f633dd62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.2652 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-C1"
-		(shape input)
-		(at 73.66 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95339a4f-b241-4c5d-9a34-70e72d01ad5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.2652 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-C3"
-		(shape input)
-		(at 176.53 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97d8efeb-93c1-4588-93b4-d1e7a0681627")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-L3"
-		(shape input)
-		(at 176.53 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b96216b-56c1-45b0-b203-e5f2b72a85e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-S2"
-		(shape input)
-		(at 151.13 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9d048cc-91fe-4645-b1ee-be19de019891")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0454 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-L1"
-		(shape input)
-		(at 176.53 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2d93034-e926-4f64-95f1-0b5976cd8e80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R4"
-		(shape input)
-		(at 102.87 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3c52c1b-b306-4d4c-bf9d-b60dbda18143")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4752 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-S2"
-		(shape input)
+	(label "MPLEX-S2"
 		(at 179.07 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "b4f0b282-a697-46cf-921f-569f3a860549")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9854 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "0146ee79-3607-48fa-b327-c830a9d09e76")
 	)
-	(global_label "POT-L4"
-		(shape input)
-		(at 43.18 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dec597b1-d2b1-4fea-b090-ca05e6028434")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.5433 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT-R2"
-		(shape input)
-		(at 102.87 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df2501db-176f-4f27-a60e-55346f2b55a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4752 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MPLEX-AP"
-		(shape input)
+	(label "MPLEX-AP"
 		(at 151.13 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "e1d27602-90fc-4087-b151-864a6440ecbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.1058 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "0a1e3502-5335-49e2-b844-b7506d4b58c2")
 	)
-	(global_label "MPLEX-AP"
-		(shape input)
-		(at 179.07 140.97 180)
+	(label "POT-R4"
+		(at 176.53 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "e3d01965-6677-4940-be94-c9b3a206bc98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.0458 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "100d7924-f181-428d-8def-945a7473895d")
 	)
-	(global_label "MPLEX-S1"
-		(shape input)
-		(at 179.07 121.92 180)
+	(label "POT-C2"
+		(at 176.53 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "fa73dfa0-dee9-4589-9a11-1669eaf171f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9854 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "12f6d393-f05b-4a9d-b7ed-a1ffdcb3dad3")
 	)
-	(global_label "POT-L3"
-		(shape input)
+	(label "POT-R4"
+		(at 102.87 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a7984b4-5833-48a0-8103-3dc6c2746c08")
+	)
+	(label "POT-L2"
+		(at 43.18 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bfb5336-cfa8-4b5b-b37e-1ad6eaa5bd47")
+	)
+	(label "POT-R3"
+		(at 102.87 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24169c32-bce2-4106-ae18-1b7a64e303c0")
+	)
+	(label "POT-L3"
+		(at 176.53 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "308ce54b-396a-4b66-a047-75883e6cb80a")
+	)
+	(label "POT-L3"
 		(at 43.18 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "fa95be8c-09a2-4176-9b6f-9fa1d40330d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.5433 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "36735fff-ee93-40a6-a6d4-453f614a8ace")
 	)
-	(global_label "POT-R3"
-		(shape input)
+	(label "POT-R2"
+		(at 102.87 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b081657-1d04-4959-9986-2ec3d4020157")
+	)
+	(label "POT-C1"
+		(at 73.66 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a9ee742-f61a-4b5b-9972-efef78cfacd8")
+	)
+	(label "POT-R1"
+		(at 176.53 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "720ba353-df05-4a1c-bb0a-e27fcc233de5")
+	)
+	(label "MPLEX-AP"
+		(at 179.07 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9795434f-5eb2-4341-99d9-b1cf3d850e71")
+	)
+	(label "POT-C1"
+		(at 176.53 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad71107-1734-4c3b-903e-4a717b106bb4")
+	)
+	(label "POT-L4"
+		(at 43.18 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9add8b29-14d2-465a-814a-4570fbc9facd")
+	)
+	(label "MPLEX-S0"
+		(at 151.13 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ec30140-a1e2-4f33-b7dc-694787ace68d")
+	)
+	(label "POT-C3"
+		(at 73.66 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdb0703b-3f05-4c7b-809c-85e64296253b")
+	)
+	(label "POT-R2"
+		(at 176.53 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0404a49-c876-4c50-9f4f-62a96f06d2c0")
+	)
+	(label "MPLEX-S1"
+		(at 179.07 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4c83f69-9cc7-415e-853b-fac906043ea9")
+	)
+	(label "POT-R1"
+		(at 102.87 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2c642c0-53ff-4a4b-ad10-883b2692fe57")
+	)
+	(label "POT-R3"
 		(at 176.53 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "fe63a3cd-1713-440d-8479-93ba2ac3ebb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "d4988ba0-6431-417e-93e4-c00e698ca321")
+	)
+	(label "POT-C3"
+		(at 176.53 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "d814184f-6fac-4ee6-883d-637cdc37ece8")
+	)
+	(label "MPLEX-S2"
+		(at 151.13 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dce7c34d-e542-4204-849e-0f61f4bed76e")
+	)
+	(label "MPLEX-S3"
+		(at 179.07 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de0a59a9-9b58-454a-942f-0cfd80cd210d")
+	)
+	(label "POT-L1"
+		(at 176.53 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4481f1f-c48e-4ea1-9812-4c5dabf692fb")
+	)
+	(label "POT-L4"
+		(at 176.53 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e61e4f38-e1c3-42be-9e7d-7b6e41968ace")
+	)
+	(label "POT-L1"
+		(at 43.18 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e657690b-be24-4f96-a61c-d8de85a8adda")
+	)
+	(label "MPLEX-S1"
+		(at 151.13 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e937891d-d834-480e-8b27-ba04d0a0d9b8")
+	)
+	(label "MPLEX-S3"
+		(at 151.13 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb6df8b1-4d73-4816-9135-d2207a00438c")
+	)
+	(label "POT-L2"
+		(at 176.53 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb92cad7-55a1-436d-b7f2-fa1f587fed5a")
+	)
+	(label "MPLEX-S0"
+		(at 179.07 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1fc0cb0-4f2c-4cf7-ac7f-096a2862e0fc")
+	)
+	(label "POT-C2"
+		(at 73.66 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8b1fda7-4474-4a84-b00a-67188f8d6bb7")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2392,6 +2122,134 @@
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
 					(reference "RV10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ec5e75c-2677-42fe-bb3c-994451bdbc44")
+		(property "Reference" "H8"
+			(at 34.29 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a1dc2d-b335-483f-937a-6fc0edbfa78e")
+		(property "Reference" "H7"
+			(at 34.29 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -3709,6 +3567,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95784102-2b3b-44e5-9cb2-0d643aefcf88")
+		(property "Reference" "H6"
+			(at 34.29 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 179.07 138.43 90)
 		(unit 1)
@@ -4516,6 +4438,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25e6055-d9e7-4321-90ad-403744e1acdc")
+		(property "Reference" "H5"
+			(at 34.29 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 71.12 59.69 0)
 		(unit 1)
@@ -4721,6 +4707,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc039b0b-a701-473d-a7a1-e6933b797231")
+		(property "Reference" "H11"
+			(at 57.15 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 54.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 88.9 0)
 		(mirror y)
@@ -4854,6 +4904,134 @@
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
 					(reference "RV11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa4372b-72b6-41cd-a1ee-a6d45f8e00b8")
+		(property "Reference" "H10"
+			(at 57.15 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f1bbbb-eb26-4280-aad0-0aafca5949e7")
+		(property "Reference" "H9"
+			(at 57.15 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "H9")
 					(unit 1)
 				)
 			)

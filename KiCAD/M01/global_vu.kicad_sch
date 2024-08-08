@@ -891,6 +891,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -3534,357 +3616,181 @@
 		)
 		(uuid "e3940163-cf43-41ac-833d-62e33c2596cb")
 	)
-	(global_label "MRVU-SIG"
-		(shape input)
-		(at 143.51 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "2da4c697-92a5-4ac3-ab93-a593a4761aba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1289 175.1965 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRCLK"
-		(shape input)
+	(label "SRCLK"
 		(at 41.91 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "3a049b2c-a60b-45c3-80eb-856da6a10900")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1415 114.2365 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "0e3db977-2f44-46f7-8186-4da28651e60e")
 	)
-	(global_label "MRVU-LATCH"
-		(shape input)
-		(at 149.86 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "48cf9f9f-e8c4-46b6-8bfa-30c58fd5d9e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.3986 120.5865 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MRVU-LATCH"
-		(shape input)
-		(at 143.51 177.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "58533fd6-85a6-4d7b-a5dd-59fa63b7fddc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.0486 177.7365 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MLVU-LATCH"
-		(shape input)
-		(at 63.5 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "766799a6-5ddc-4cb0-a0db-b3b180494fa5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0386 176.4665 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MLVU-LATCH"
-		(shape input)
+	(label "MLVU-LATCH"
 		(at 40.64 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "7718a0b6-6dee-44d8-acfe-dbe50733bdbc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1786 121.8565 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "0f33fed0-594d-4ac4-8edf-ebfd32a8a632")
 	)
-	(global_label "MRVU-LATCH"
-		(shape input)
-		(at 149.86 62.23 180)
+	(label "MRVU-SIG"
+		(at 143.51 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "8d371f56-ad39-4aad-830a-b8421a677d5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.3986 62.1665 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "2e9160ae-5d84-478a-8dba-df479474d0be")
 	)
-	(global_label "MLVU-SIG"
-		(shape input)
-		(at 63.5 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "9a29f17e-3a40-4c4f-97f3-30f9f37135bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.1189 173.9265 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRCLK"
-		(shape input)
-		(at 149.86 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "9fc5cdf5-0fe3-42ba-a68e-212b768c998c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0915 54.5465 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRCLK"
-		(shape input)
+	(label "SRCLK"
 		(at 63.5 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "c5ce5983-8906-4f2b-b149-aeace24a594f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.7315 171.3865 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "31bdadbc-7837-44b3-9295-808ce85d9acf")
 	)
-	(global_label "MRVU-SIG"
-		(shape input)
+	(label "MLVU-LATCH"
+		(at 63.5 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fc36db1-54b6-4887-bf11-d933faafbfbc")
+	)
+	(label "MRVU-SIG"
 		(at 151.13 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "da64904c-af18-479f-abf8-981f600485f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7489 49.4665 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "4d56b4d5-3113-408b-82db-393ba732203b")
 	)
-	(global_label "SRCLK"
-		(shape input)
-		(at 149.86 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "dfb1f81b-21b3-47de-b1d6-2740e6ebc545")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0915 112.9665 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MLVU-LATCH"
-		(shape input)
-		(at 40.64 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "dfe260d3-485c-4f4a-be40-ee722f164464")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1786 63.4365 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MLVU-SIG"
-		(shape input)
-		(at 41.91 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "e3b69fb4-d1cd-40cb-b72f-e2b389c50d8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5289 50.7365 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRCLK"
-		(shape input)
-		(at 44.45 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "eea60309-a491-49f7-83db-e6c70a122af5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.6815 55.8165 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SRCLK"
-		(shape input)
+	(label "SRCLK"
 		(at 143.51 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "efee2812-789e-4c13-b6cc-3133dad03233")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.7415 172.6565 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "57e2fdf4-e106-461f-a04c-b1a52591afba")
+	)
+	(label "SRCLK"
+		(at 149.86 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
 			)
+			(justify right bottom)
 		)
+		(uuid "70e6f13d-dea7-471c-a10e-f36d5488c3a8")
+	)
+	(label "MLVU-SIG"
+		(at 63.5 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "756de0f6-eaee-42f9-a1d3-826c39bc1b79")
+	)
+	(label "MLVU-LATCH"
+		(at 40.64 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a0232df-f779-404e-a4a1-7a85a8dcaee4")
+	)
+	(label "SRCLK"
+		(at 149.86 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c846241-faa2-497b-831e-a60cadc62b58")
+	)
+	(label "MRVU-LATCH"
+		(at 149.86 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "8779a4a3-767e-4ff9-a211-33703b8e93ca")
+	)
+	(label "MRVU-LATCH"
+		(at 149.86 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b01de51-b660-4074-b9d1-fc8be43734cd")
+	)
+	(label "MRVU-LATCH"
+		(at 143.51 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c95a957-50e5-481c-b346-2b76e1249697")
+	)
+	(label "SRCLK"
+		(at 44.45 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac8be0e3-6ab3-4c9a-962b-f750fd2e8102")
+	)
+	(label "MLVU-SIG"
+		(at 41.91 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbbd026b-334b-401d-a96c-42e4fed3f764")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -5440,6 +5346,70 @@
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 166.37 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42fa12d3-0ff8-4572-9c5e-53052612951d")
+		(property "Reference" "H2"
+			(at 27.94 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7748,6 +7718,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2415c0-0d5e-42ae-88db-a90bc42b0847")
+		(property "Reference" "H3"
+			(at 27.94 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 198.12 58.42 180)
 		(unit 1)
@@ -9498,6 +9532,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05e12cf-f0ce-4e4d-9a0f-562380520cbe")
+		(property "Reference" "H4"
+			(at 27.94 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 198.12 50.8 180)
 		(unit 1)
@@ -9760,6 +9858,70 @@
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd987ba9-fbe0-41ea-9dd1-dd4c073e1721")
+		(property "Reference" "H1"
+			(at 27.94 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
+					(reference "H1")
 					(unit 1)
 				)
 			)
