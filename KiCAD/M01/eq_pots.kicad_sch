@@ -1320,16 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 40.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d72bb7e-a17d-4bcb-bbc9-9aa92675fe26")
-	)
-	(wire
-		(pts
 			(xy 40.64 64.77) (xy 40.64 66.04)
 		)
 		(stroke
@@ -1417,26 +1407,6 @@
 			(type default)
 		)
 		(uuid "a65a8b71-d207-440b-8fb7-f5bfb3f50312")
-	)
-	(wire
-		(pts
-			(xy 71.12 88.9) (xy 71.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf83bab-edf4-4286-a105-98bdc62024af")
-	)
-	(wire
-		(pts
-			(xy 40.64 41.91) (xy 40.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b12e25bf-15ae-4b12-9931-7cd73aa11550")
 	)
 	(wire
 		(pts
@@ -2290,7 +2260,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.64 35.56 0)
+		(at 40.64 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2299,7 +2269,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a19db5e-1572-4a32-a2f1-a7a5cfea2fe0")
 		(property "Reference" "#PWR023"
-			(at 40.64 39.37 0)
+			(at 40.64 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2278,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 40.64 30.48 0)
+			(at 40.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 35.56 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 35.56 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.64 35.56 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d5781e3-14b4-499d-be67-cd804380c566")
-		(property "Reference" "RV7"
+		(property "Reference" "RV10"
 			(at 97.79 85.0899 0)
 			(effects
 				(font
@@ -2382,7 +2352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 100.33 86.36 0)
 			(effects
 				(font
@@ -2421,7 +2391,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV7")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -2437,7 +2407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18cd1391-28e6-4726-b874-9e5c25b77491")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 100.33 50.8 0)
 			(effects
 				(font
@@ -2447,7 +2417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 49.53 0)
+			(at 100.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2457,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2569,7 +2539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261b362e-76c0-472e-b373-9ed1cb488b25")
-		(property "Reference" "RV5"
+		(property "Reference" "RV8"
 			(at 97.79 39.3699 0)
 			(effects
 				(font
@@ -2587,7 +2557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 100.33 40.64 0)
 			(effects
 				(font
@@ -2626,7 +2596,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV5")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -2642,7 +2612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1f61f8-a67e-4a87-8b74-3daeb0b326d7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 100.33 63.5 0)
 			(effects
 				(font
@@ -2692,7 +2662,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9b1343-9d6c-4c48-9d5e-288ae5477c5e")
-		(property "Reference" "RV6"
+		(property "Reference" "RV9"
 			(at 97.79 62.2299 0)
 			(effects
 				(font
@@ -2726,7 +2696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 100.33 63.5 0)
 			(effects
 				(font
@@ -2765,7 +2735,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV6")
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -2781,7 +2751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a212a1-9779-4b85-94f6-a6cf96a8ccea")
-		(property "Reference" "RV10"
+		(property "Reference" "RV6"
 			(at 68.58 62.2299 0)
 			(effects
 				(font
@@ -2799,7 +2769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -2838,7 +2808,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV10")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46b41b47-fff9-4731-bf17-c2ea8b2c6343")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR041"
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -2864,7 +2834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 95.25 0)
+			(at 100.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2874,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR036")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "537ce16f-f7c5-4560-bb10-1b3c2cad4d79")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 100.33 119.38 0)
 			(effects
 				(font
@@ -2930,7 +2900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 118.11 0)
+			(at 100.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +2940,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR038")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607fdc48-1060-4638-9912-4d3b3158753d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -3036,7 +3006,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR037")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3189,7 +3159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ebd12e9-428b-4eb8-94a6-418b66e89a9b")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 172.72 135.89 0)
 			(effects
 				(font
@@ -3199,7 +3169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.244 135.636 90)
+			(at 175.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3209,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3247,7 +3217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 43.18 0)
+		(at 40.64 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3256,7 +3226,7 @@
 		(dnp no)
 		(uuid "6f6d2bcc-38c5-46ce-9b49-18fd108abd4f")
 		(property "Reference" "#PWR024"
-			(at 40.64 49.53 0)
+			(at 40.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +3235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 48.26 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 43.18 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 43.18 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 43.18 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82c80165-a4d7-42cf-9d79-3bc5c03590da")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR031"
 			(at 71.12 40.64 0)
 			(effects
 				(font
@@ -3437,7 +3407,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR039")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 40.64 107.95 0)
 			(effects
 				(font
@@ -3526,7 +3496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848e29e4-9571-43ba-8882-3e618433d21e")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 186.69 137.1599 0)
 			(effects
 				(font
@@ -3544,7 +3514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -3583,7 +3553,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9281d731-1d7d-4f13-ad7d-aba38f3ebba9")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 186.69 121.9199 0)
 			(effects
 				(font
@@ -3617,7 +3587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -3659,7 +3629,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3693,7 +3663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 40.64 62.23 0)
 			(effects
 				(font
@@ -3748,7 +3718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995300b4-7c2a-4ff7-81ad-e332dca0c9de")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 182.88 138.43 0)
 			(effects
 				(font
@@ -3799,7 +3769,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3815,7 +3785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c9b1653-aedc-4818-b6c1-e294f0ec5e7f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR032"
 			(at 71.12 50.8 0)
 			(effects
 				(font
@@ -3825,7 +3795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 49.53 0)
+			(at 71.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3835,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR040")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3881,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0c71c9-c700-4ec2-8fd6-d92dd5ce1e31")
-		(property "Reference" "RV11"
+		(property "Reference" "RV7"
 			(at 68.58 85.0899 0)
 			(effects
 				(font
@@ -3899,7 +3869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -3938,7 +3908,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV11")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -3954,7 +3924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f1073b0-7e9b-436c-8eaa-b07d0130a0a7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR034"
 			(at 71.12 73.66 0)
 			(effects
 				(font
@@ -3964,7 +3934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 72.39 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +3974,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR042")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4020,7 +3990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c44801-6cb6-4c18-9c78-8ae2fa5032bb")
-		(property "Reference" "RV9"
+		(property "Reference" "RV5"
 			(at 68.58 39.3699 0)
 			(effects
 				(font
@@ -4038,7 +4008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 71.12 40.64 0)
 			(effects
 				(font
@@ -4077,7 +4047,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV9")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 95.25 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aecc44fd-1a4d-41e2-9ab9-f81b22913640")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 100.33 86.36 0)
 			(effects
 				(font
@@ -4209,7 +4179,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4235,7 +4205,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 93.98 0)
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b622383e-9af9-45ac-b71a-87d5c4edde19")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 100.33 73.66 0)
 			(effects
 				(font
@@ -4301,7 +4271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 72.39 0)
+			(at 100.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4311,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4357,7 +4327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2387c67-21d0-4807-bbe7-4362696fd02a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR035"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -4407,7 +4377,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR043")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4423,7 +4393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb9379b1-8b4f-4e6f-a763-2786d0e4be77")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 100.33 40.64 0)
 			(effects
 				(font
@@ -4473,7 +4443,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 116.84 0)
+			(at 40.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3657b0f-eece-4f58-a5a8-93ef5caf5ad0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR033"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -4605,7 +4575,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "#PWR041")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 40.64 85.09 0)
 			(effects
 				(font
@@ -4751,6 +4721,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e222778c-4082-418d-a485-bf926412f389")
+		(property "Reference" "#PWR096"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd657013-9688-496d-8111-6c2e4d884c00")
+		)
+		(instances
+			(project "M01"
+				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 100.33 109.22 0)
 		(unit 1)
@@ -4760,7 +4796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27146d5-c129-4918-82bc-8062d6f387ce")
-		(property "Reference" "RV8"
+		(property "Reference" "RV11"
 			(at 97.79 107.9499 0)
 			(effects
 				(font
@@ -4778,7 +4814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -4817,7 +4853,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/58be469c-79c1-404e-880c-b6416360c8ea"
-					(reference "RV8")
+					(reference "RV11")
 					(unit 1)
 				)
 			)
@@ -4851,7 +4887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 40.64 39.37 0)
 			(effects
 				(font
@@ -4916,7 +4952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 71.12 0)
+			(at 40.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

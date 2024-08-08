@@ -2434,6 +2434,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c764e87-6086-44d2-a13c-67beaa86b360")
+	)
+	(wire
+		(pts
 			(xy 43.18 120.65) (xy 55.88 120.65)
 		)
 		(stroke
@@ -3208,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0509209e-ce88-4d26-9cd5-68fdf8312456")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR059"
 			(at 120.65 144.78 0)
 			(effects
 				(font
@@ -3259,7 +3269,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR070")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3291,7 +3301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 179.07 31.75 0)
 			(effects
 				(font
@@ -3343,7 +3353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15aa39e1-0a4a-4d07-8461-d8fa1242946e")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR067"
 			(at 163.83 110.49 0)
 			(effects
 				(font
@@ -3378,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 163.83 104.14 0)
 			(effects
 				(font
@@ -3393,7 +3403,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR063")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17c1fb0d-0551-4ed7-8f38-6e2033f7972a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR051"
 			(at 55.88 127 0)
 			(effects
 				(font
@@ -3419,7 +3429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 125.73 0)
+			(at 55.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3469,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR066")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3492,7 +3502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 139.7 33.02 0)
 			(effects
 				(font
@@ -3544,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eedeb06-65ec-4f5e-936c-1d6e10ce3098")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 58.0741 66.04 0)
 			(effects
 				(font
@@ -3665,7 +3675,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3699,7 +3709,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 67.31 36.83 0)
 			(effects
 				(font
@@ -3771,7 +3781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -3823,7 +3833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b6b8f32-7c0e-477c-ae5a-b09994ac0b89")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 132.08 118.11 0)
 			(effects
 				(font
@@ -3858,7 +3868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -3873,7 +3883,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3889,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bbcf39b-d1c2-4aa1-bc47-f3ab94bc2cd1")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR055"
 			(at 87.63 143.51 0)
 			(effects
 				(font
@@ -3940,7 +3950,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR068")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ceca1d4-c936-44d3-92f7-9055e7a19933")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR050"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -4006,7 +4016,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR065")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4039,7 +4049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -4090,7 +4100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ebef2ac-420c-4a3a-889b-91bdc888a04d")
-		(property "Reference" "R33"
+		(property "Reference" "R36"
 			(at 164.592 31.496 0)
 			(effects
 				(font
@@ -4108,7 +4118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -4144,7 +4154,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "R33")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "524eae2e-3863-4a57-a828-6f70b6bcd5f9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -4170,7 +4180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 48.006 0)
+			(at 120.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4220,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR054")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4225,7 +4235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5652471e-4df9-49ae-890c-1a1626282f16")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -4235,7 +4245,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.132 26.924 0)
+			(at 170.18 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4285,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60341314-cd73-4779-a52d-ff37c6812cb4")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 76.962 133.858 0)
 			(effects
 				(font
@@ -4308,7 +4318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -4356,7 +4366,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b43df4-bdef-4616-9487-b1b7234055c9")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR069"
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -4382,7 +4392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 48.006 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4432,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR059")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 121.92 147.32 0)
 			(effects
 				(font
@@ -4519,7 +4529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787e74a0-2ce3-4a5c-a0c8-6445d71ff98d")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 134.2741 76.2 0)
 			(effects
 				(font
@@ -4537,7 +4547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
 			(at 132.08 93.98 0)
 			(effects
 				(font
@@ -4615,7 +4625,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d5a080c-a862-4382-9ccd-c280040d9dcf")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR064"
 			(at 139.7 33.02 0)
 			(effects
 				(font
@@ -4640,7 +4650,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 136.652 26.924 0)
+			(at 139.7 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4690,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR055")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4696,7 +4706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "814247bf-0078-4c11-bab9-2cf9a5deeb22")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR054"
 			(at 77.47 140.97 0)
 			(effects
 				(font
@@ -4706,7 +4716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.994 140.716 90)
+			(at 80.01 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4756,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR067")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4762,7 +4772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8282f0bd-27ce-46e9-af1b-322693606c9d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -4772,7 +4782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 48.006 0)
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4822,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4828,7 +4838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8554b6c3-359c-43ff-ae19-26ea2e24e7d8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 40.64 36.83 0)
 			(effects
 				(font
@@ -4878,7 +4888,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4977,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 148.59 31.75 0)
 			(effects
 				(font
@@ -5029,7 +5039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f823e25-b5fe-45c8-a887-c9def1f09e65")
-		(property "Reference" "R39"
+		(property "Reference" "R35"
 			(at 148.59 93.98 90)
 			(effects
 				(font
@@ -5045,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -5081,7 +5091,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "R39")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5a12aff-78ef-4367-a87e-2bb4c75510c0")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR070"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -5241,7 +5251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 48.006 0)
+			(at 184.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5291,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR060")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5297,7 +5307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb2b1171-39b5-485e-a11d-a0ec93295434")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 67.31 46.99 0)
 			(effects
 				(font
@@ -5307,7 +5317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 45.72 0)
+			(at 67.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5357,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5362,7 +5372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2ae48a3-acd2-41d8-91cb-21394ecbfeff")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -5372,7 +5382,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 103.632 26.924 0)
+			(at 106.68 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5422,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5428,7 +5438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db21e6f0-b4a6-4457-a5f4-e448d0214f36")
-		(property "Reference" "R38"
+		(property "Reference" "R34"
 			(at 148.59 86.36 90)
 			(effects
 				(font
@@ -5444,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -5480,7 +5490,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb62307-f03e-41c8-a6ca-d78aa768f33f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 67.31 36.83 0)
 			(effects
 				(font
@@ -5546,7 +5556,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5578,7 +5588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -5630,7 +5640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df37de42-1be5-4c59-bd40-541d05046d93")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR066"
 			(at 153.67 50.8 0)
 			(effects
 				(font
@@ -5640,7 +5650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 48.006 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5690,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR057")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e543bbd9-a439-41b5-9216-b28ba1200fb3")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR065"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -5706,7 +5716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 48.006 0)
+			(at 139.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5756,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR056")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5779,7 +5789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -5831,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb4a0a9-2962-4fb1-8bf3-8dbff06b4061")
-		(property "Reference" "R37"
+		(property "Reference" "R33"
 			(at 148.59 78.74 90)
 			(effects
 				(font
@@ -5847,7 +5857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -5883,7 +5893,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "R37")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5899,7 +5909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee4ff221-ac69-4da2-9657-1072ef85912a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 40.64 46.99 0)
 			(effects
 				(font
@@ -5909,7 +5919,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 45.72 0)
+			(at 40.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +5959,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5982,7 +5992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -6034,7 +6044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ebca99-2c2b-4f21-90cc-e2cbbdae7949")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR058"
 			(at 110.49 142.24 0)
 			(effects
 				(font
@@ -6044,7 +6054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 112.014 141.986 90)
+			(at 113.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6094,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR069")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6099,7 +6109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f72a8a63-cb5a-4613-8125-449c84f5f841")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 132.08 82.55 0)
 			(effects
 				(font
@@ -6109,7 +6119,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 132.08 74.93 0)
+			(at 132.08 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 132.08 78.74 0)
 			(effects
 				(font
@@ -6149,7 +6159,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 40.64 36.83 0)
 			(effects
 				(font
@@ -6237,7 +6247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf9c951-3466-406a-b1d0-59c03c573434")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR061"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -6247,7 +6257,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 117.094 91.44 90)
+			(at 118.364 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -6287,7 +6297,7 @@
 		(instances
 			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/d906b66e-96c4-4409-ab87-d5810e49d9a3"
-					(reference "#PWR064")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
