@@ -5077,7 +5077,7 @@
 			(uuid "d827725b-6a0c-46e0-8d76-d8597b7ace80")
 		)
 		(instances
-			(project ""
+			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
 					(reference "U2")
 					(unit 1)
@@ -9919,7 +9919,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "M01"
 				(path "/3983ec4c-5b8c-4717-b463-a25263084aba/6e02a1af-3eb6-4d37-9cc3-897bdc37b8e0"
 					(reference "H1")
 					(unit 1)
