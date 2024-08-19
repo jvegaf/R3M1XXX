@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(aux_axis_origin 68 39.5)
+		(aux_axis_origin 93 93.5)
 		(pcbplotparams
 			(layerselection 0x0001000_fffffffe)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -8174,6 +8174,26 @@
 		(layer "Cmts.User")
 		(uuid "fd7fc568-3baa-47f2-84a3-716589c2ceba")
 	)
+	(gr_line
+		(start 118 39.5)
+		(end 68 147.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "0665be55-b9ed-41dc-9510-477ecadade23")
+	)
+	(gr_line
+		(start 118 147.5)
+		(end 68 39.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "e71d7e7b-444f-4d60-b1b8-7c1fceea5f54")
+	)
 	(gr_arc
 		(start 115 39.5)
 		(mid 117.12132 40.37868)
@@ -8266,7 +8286,7 @@
 			(xy 115 39.5) (xy 115 147.5)
 		)
 		(height -11.5)
-		(gr_text "108.0000 mm"
+		(gr_text "4251.9685 mils"
 			(at 125.35 93.5 90)
 			(layer "Eco2.User")
 			(uuid "8dda6616-a131-4eb3-b7ad-25ee2d07cae6")
@@ -8299,7 +8319,7 @@
 			(xy 68 42.5) (xy 118 42.5)
 		)
 		(height -9)
-		(gr_text "50.0000 mm"
+		(gr_text "1968.5039 mils"
 			(at 93 32.35 0)
 			(layer "Eco2.User")
 			(uuid "e457b285-6b07-412f-a9e8-0febb69cfbd7")
