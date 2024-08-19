@@ -480,10 +480,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "dxf/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "FX-Pots.step",
       "svg": "",
       "vrml": ""
     },

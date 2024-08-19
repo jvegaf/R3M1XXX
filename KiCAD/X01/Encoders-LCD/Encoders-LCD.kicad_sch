@@ -4356,7 +4356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display-oled:RGB_096"
+		(property "Footprint" "Display-oled:1.14 7789"
 			(at 121.666 130.81 0)
 			(effects
 				(font
@@ -5379,7 +5379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display-oled:RGB_096"
+		(property "Footprint" "Display-oled:1.14 7789"
 			(at 164.846 130.81 0)
 			(effects
 				(font
@@ -6454,7 +6454,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
 					(reference "H1")
 					(unit 1)

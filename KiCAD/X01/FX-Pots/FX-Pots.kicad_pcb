@@ -43,8 +43,8 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(aux_axis_origin 93 93.5)
 		(pcbplotparams
-			(layerselection 0x0001000_fffffffe)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0001000_7ffffffe)
+			(plot_on_all_layers_selection 0x0001300_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -63,7 +63,7 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(dxfpolygonmode yes)
-			(dxfimperialunits yes)
+			(dxfimperialunits no)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
@@ -73,11 +73,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
-			(drillshape 0)
+			(drillshape 2)
 			(scaleselection 1)
-			(outputdirectory "gerber/")
+			(outputdirectory "dxf/")
 		)
 	)
 	(net 0 "")
@@ -7754,6 +7754,50 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 106 124.25)
+		(end 107.8 124.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "a3af5e13-546e-461d-b059-8d3140501f7b")
+	)
+	(gr_circle
+		(center 106 66.25)
+		(end 107.8 66.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "ba115c66-f119-49c3-bb73-de974c425dc7")
+	)
+	(gr_circle
+		(center 72.75 143)
+		(end 74.55 143)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d1ae478d-15af-44de-ba39-f7bab88a948a")
+	)
+	(gr_circle
+		(center 72.5 44.25)
+		(end 74.3 44.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f2af630a-d478-4647-9732-d75ba8e1070f")
+	)
 	(gr_arc
 		(start 90 83.5)
 		(mid 89.56066 84.56066)
@@ -8174,26 +8218,6 @@
 		(layer "Cmts.User")
 		(uuid "fd7fc568-3baa-47f2-84a3-716589c2ceba")
 	)
-	(gr_line
-		(start 118 39.5)
-		(end 68 147.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco2.User")
-		(uuid "0665be55-b9ed-41dc-9510-477ecadade23")
-	)
-	(gr_line
-		(start 118 147.5)
-		(end 68 39.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco2.User")
-		(uuid "e71d7e7b-444f-4d60-b1b8-7c1fceea5f54")
-	)
 	(gr_arc
 		(start 115 39.5)
 		(mid 117.12132 40.37868)
@@ -8286,7 +8310,7 @@
 			(xy 115 39.5) (xy 115 147.5)
 		)
 		(height -11.5)
-		(gr_text "4251.9685 mils"
+		(gr_text "108.0000 mm"
 			(at 125.35 93.5 90)
 			(layer "Eco2.User")
 			(uuid "8dda6616-a131-4eb3-b7ad-25ee2d07cae6")
@@ -8319,7 +8343,7 @@
 			(xy 68 42.5) (xy 118 42.5)
 		)
 		(height -9)
-		(gr_text "1968.5039 mils"
+		(gr_text "50.0000 mm"
 			(at 93 32.35 0)
 			(layer "Eco2.User")
 			(uuid "e457b285-6b07-412f-a9e8-0febb69cfbd7")

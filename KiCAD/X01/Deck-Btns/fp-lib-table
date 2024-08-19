@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "led-switch")(type "KiCad")(uri "C:/Users/josev/Desktop/R3M1XXX/KiCAD/X01/FX-Pots/led-switch.pretty")(options "")(descr ""))
+)
