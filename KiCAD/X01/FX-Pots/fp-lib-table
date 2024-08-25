@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "led-switch")(type "KiCad")(uri "${KIPRJMOD}/led-switch.pretty")(options "")(descr ""))
+  (lib (name "led-sw")(type "KiCad")(uri "C:/Users/josev/Desktop/R3M1XXX/KiCAD/X01/Deck-Btns/led-sw.pretty")(options "")(descr ""))
 )

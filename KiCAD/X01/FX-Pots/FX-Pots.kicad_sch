@@ -2266,16 +2266,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 27.94) (xy 250.19 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f45697-1a59-423c-ae7a-37808b1ca840")
-	)
-	(wire
-		(pts
 			(xy 209.55 88.9) (xy 213.36 88.9)
 		)
 		(stroke
@@ -2366,6 +2356,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 119.38) (xy 250.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561fbc01-71fe-4e6a-bec6-1a3fbaf7fa68")
+	)
+	(wire
+		(pts
 			(xy 36.83 106.68) (xy 36.83 107.95)
 		)
 		(stroke
@@ -2426,13 +2426,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 119.38) (xy 250.19 120.65)
+			(xy 250.19 27.94) (xy 250.19 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dce00ac-48ae-440f-8e72-154f4c5bccb4")
+		(uuid "866dcc30-9454-41f0-8623-4051ab463a8b")
 	)
 	(wire
 		(pts
@@ -5089,7 +5089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 226.06 107.95 0)
 			(effects
 				(font
@@ -5406,7 +5406,7 @@
 			(uuid "e3e14a26-d6ea-4527-abea-d5793a5e1ecc")
 		)
 		(instances
-			(project ""
+			(project "FX-Pots"
 				(path "/785e7457-0738-4da0-a9ef-90f983e5f9cc"
 					(reference "J1")
 					(unit 1)
@@ -5584,7 +5584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 226.06 55.88 0)
 			(effects
 				(font
@@ -6950,7 +6950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -7090,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 226.06 30.48 0)
 			(effects
 				(font
@@ -7130,7 +7130,7 @@
 			(uuid "a0dc0afc-0f17-4f74-aee5-cd78e262fefb")
 		)
 		(instances
-			(project ""
+			(project "FX-Pots"
 				(path "/785e7457-0738-4da0-a9ef-90f983e5f9cc"
 					(reference "SW1")
 					(unit 1)
@@ -7372,7 +7372,7 @@
 			(uuid "a608ba71-4724-4231-bd6d-3eea4cf129dc")
 		)
 		(instances
-			(project ""
+			(project "FX-Pots"
 				(path "/785e7457-0738-4da0-a9ef-90f983e5f9cc"
 					(reference "U1")
 					(unit 1)
