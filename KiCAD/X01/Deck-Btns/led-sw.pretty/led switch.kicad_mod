@@ -248,4 +248,15 @@
 		(remove_unused_layers no)
 		(uuid "0405a52a-61b2-4f87-b369-bc95d4a581a2")
 	)
+	(model "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/shared/swtich_keyboard_LED_backlit.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
