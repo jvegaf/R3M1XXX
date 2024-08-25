@@ -1651,126 +1651,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1867,12 +1747,126 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 172.72 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "063a7880-6f4a-4f1f-8d85-5f0f7f2abda6")
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 116.84 29.21)
@@ -1885,12 +1879,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23b3f340-4779-420d-880b-57b2c82a6b89")
-	)
-	(junction
-		(at 172.72 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "251b63af-d828-4c73-b5f9-284b1f06bfe8")
 	)
 	(junction
 		(at 207.01 43.18)
@@ -1911,10 +1899,28 @@
 		(uuid "4c69d5ea-026d-40d5-88b9-792a715836fe")
 	)
 	(junction
+		(at 172.72 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4993d6-c8a7-41f0-91ab-f1e2b608ffb0")
+	)
+	(junction
 		(at 151.13 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c212234-3c01-4766-8d12-222b44939111")
+	)
+	(junction
+		(at 172.72 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cecab76-8629-4ff6-becb-9713c1125f64")
+	)
+	(junction
+		(at 172.72 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "619c7ca1-3e23-4cd4-af36-990c31feace0")
 	)
 	(junction
 		(at 116.84 80.01)
@@ -1947,12 +1953,6 @@
 		(uuid "b3eee677-4f64-49ad-a9a3-b3ab0d3d77de")
 	)
 	(junction
-		(at 172.72 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb287166-b342-421a-b702-e83da7cc419e")
-	)
-	(junction
 		(at 87.63 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,8 +1971,24 @@
 		(uuid "ed683f51-c79b-44a4-986f-f1129e885855")
 	)
 	(no_connect
+		(at 72.39 57.15)
+		(uuid "1ade2e49-b1ba-4add-bdfd-5d03f6c46d81")
+	)
+	(no_connect
+		(at 72.39 59.69)
+		(uuid "238d3284-a5db-4c9c-8e24-3799adbb3917")
+	)
+	(no_connect
+		(at 72.39 52.07)
+		(uuid "2dd93996-7822-41bb-9622-e4643f1bfde8")
+	)
+	(no_connect
 		(at 72.39 90.17)
 		(uuid "aa46621a-524a-474c-a4c5-9e1b6740f78e")
+	)
+	(no_connect
+		(at 72.39 54.61)
+		(uuid "b6b0041f-c972-4376-af3f-11f54c991b58")
 	)
 	(no_connect
 		(at 72.39 95.25)
@@ -1995,6 +2011,16 @@
 			(type default)
 		)
 		(uuid "069bba4c-a9e7-400c-a4bc-da3599f09f9e")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077841ee-e386-4fcd-a43d-b67ffb9a961e")
 	)
 	(wire
 		(pts
@@ -2095,6 +2121,16 @@
 			(type default)
 		)
 		(uuid "12c522a7-2ac6-40ca-a8af-0433a18e04ea")
+	)
+	(wire
+		(pts
+			(xy 167.64 45.72) (xy 172.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196adbb6-e50f-4fbc-8cf3-4b30e31a4860")
 	)
 	(wire
 		(pts
@@ -2408,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 80.01) (xy 116.84 80.01)
+			(xy 111.76 80.01) (xy 116.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2468,16 +2504,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 172.72 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5ed10c-c6d4-4e2a-b21d-712777350c5c")
-	)
-	(wire
-		(pts
 			(xy 173.99 93.98) (xy 185.42 93.98)
 		)
 		(stroke
@@ -2495,16 +2521,6 @@
 			(type default)
 		)
 		(uuid "602dc778-38b2-4a8b-a520-b7c2ee89f300")
-	)
-	(wire
-		(pts
-			(xy 72.39 52.07) (xy 82.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604000aa-1878-4967-a654-67d6bb6954f8")
 	)
 	(wire
 		(pts
@@ -2538,6 +2554,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 80.01) (xy 172.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7a2796-d676-4554-aa84-36e208058ceb")
+	)
+	(wire
+		(pts
 			(xy 72.39 85.09) (xy 85.09 85.09)
 		)
 		(stroke
@@ -2565,16 +2591,6 @@
 			(type default)
 		)
 		(uuid "7488df14-9553-413c-a572-98b3130bc9c9")
-	)
-	(wire
-		(pts
-			(xy 72.39 49.53) (xy 82.55 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74bb95b1-16d7-4e32-bac8-e77cadfb1a3e")
 	)
 	(wire
 		(pts
@@ -2698,6 +2714,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 33.02) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940bb481-f93a-496e-ac35-db4029fdd2a9")
+	)
+	(wire
+		(pts
 			(xy 139.7 60.96) (xy 151.13 60.96)
 		)
 		(stroke
@@ -2738,16 +2764,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 54.61) (xy 82.55 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a44b9b9a-93c5-49d9-9f7d-570cd274b8da")
-	)
-	(wire
-		(pts
 			(xy 78.74 115.57) (xy 87.63 115.57)
 		)
 		(stroke
@@ -2778,6 +2794,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 34.29) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71267cc-01cd-4681-81b2-0e1255f40b90")
+	)
+	(wire
+		(pts
 			(xy 139.7 120.65) (xy 127 120.65)
 		)
 		(stroke
@@ -2795,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "aa3fe574-9497-4a61-a08a-47c46a6c27ed")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7abae7-c704-4c63-8504-3021108eb390")
 	)
 	(wire
 		(pts
@@ -3038,16 +3074,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 80.01) (xy 172.72 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5bfe75-ca7c-44e2-b860-8ea74b0bf528")
-	)
-	(wire
-		(pts
 			(xy 142.24 99.06) (xy 148.59 99.06)
 		)
 		(stroke
@@ -3105,6 +3131,16 @@
 			(type default)
 		)
 		(uuid "d4855f8a-e3de-4256-9a63-c2a48ca38832")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58bcfc5-a8bc-4a7a-b113-694ba79225d0")
 	)
 	(wire
 		(pts
@@ -3178,16 +3214,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 45.72) (xy 172.72 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e46d511f-5001-48bf-98ac-601d367ccd50")
-	)
-	(wire
-		(pts
 			(xy 195.58 29.21) (xy 198.12 29.21)
 		)
 		(stroke
@@ -3225,16 +3251,6 @@
 			(type default)
 		)
 		(uuid "ea9bc5e2-1e1b-4892-b03a-86e550bd2ce7")
-	)
-	(wire
-		(pts
-			(xy 72.39 57.15) (xy 82.55 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf76f7f-714e-466e-a337-17d152548580")
 	)
 	(wire
 		(pts
@@ -3348,24 +3364,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 82.55 59.69)
+			(xy 39.37 97.79) (xy 39.37 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff3fd87b-b034-4afe-a073-6efaf222a9dd")
-	)
-	(label "R2"
-		(at 175.26 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "007a98b3-7ec1-4a02-9e16-11cc75004cbe")
+		(uuid "ffad2b08-9680-4211-a814-ac77ea388594")
 	)
 	(label "R3"
 		(at 167.64 45.72 0)
@@ -3377,39 +3382,6 @@
 			(justify left bottom)
 		)
 		(uuid "03065884-540f-47e6-8478-c5cec9464886")
-	)
-	(label "R3"
-		(at 119.38 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0722c197-1107-40f9-a423-4351fcb97fd1")
-	)
-	(label "R2"
-		(at 119.38 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0873fd46-eaaa-40c7-85fb-de095cea2371")
-	)
-	(label "R6"
-		(at 82.55 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a3ffc63-f2ed-45b1-abc9-3673b6268e8f")
 	)
 	(label "R3"
 		(at 82.55 41.91 180)
@@ -3631,17 +3603,6 @@
 		)
 		(uuid "778059bd-5c60-4048-9653-bd7709607c31")
 	)
-	(label "R4"
-		(at 175.26 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7824e23f-ebb7-47a1-914f-ec3b0e89d405")
-	)
 	(label "COM-3"
 		(at 127 132.08 0)
 		(fields_autoplaced yes)
@@ -3697,17 +3658,6 @@
 		)
 		(uuid "926875c0-ee5a-4d15-938f-0328b1e8c93a")
 	)
-	(label "R9"
-		(at 82.55 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9315ae26-0ceb-449c-8276-ec63726765bb")
-	)
 	(label "R5"
 		(at 167.64 80.01 0)
 		(fields_autoplaced yes)
@@ -3718,17 +3668,6 @@
 			(justify left bottom)
 		)
 		(uuid "94a35dbe-c7e9-4155-b543-d7bf4c729b11")
-	)
-	(label "R3"
-		(at 175.26 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99be6b64-3679-4b5d-b604-946e67db5576")
 	)
 	(label "KS-1"
 		(at 148.59 66.04 180)
@@ -3763,19 +3702,8 @@
 		)
 		(uuid "a21a6e8e-2baa-4522-92b7-f702e02f5d31")
 	)
-	(label "R4"
-		(at 119.38 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4f3ecd0-ed56-43ae-8ea2-7b32b7a4fe77")
-	)
-	(label "R10"
-		(at 82.55 59.69 180)
+	(label "R6"
+		(at 82.55 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3783,18 +3711,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a8beae26-23dc-4bfe-8ec8-8c9d8a39e371")
-	)
-	(label "R8"
-		(at 82.55 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad54a542-7a96-4073-81ab-35740c938c60")
+		(uuid "aae4a016-a36a-46f6-985e-d69f93d30a4f")
 	)
 	(label "R1"
 		(at 82.55 36.83 180)
@@ -3828,17 +3745,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3c3c605-24a0-47e5-b0a7-dcddbdb5b774")
-	)
-	(label "R7"
-		(at 82.55 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7272a07-77dc-47ae-b091-19479c02692d")
 	)
 	(label "COM-2"
 		(at 127 120.65 0)
@@ -3982,7 +3888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0261cc07-ad93-4a1d-befb-37f665042965")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR01"
 			(at 30.48 143.51 0)
 			(effects
 				(font
@@ -4032,7 +3938,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "#PWR043")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4048,7 +3954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094c22b0-e94f-4882-8e71-e01e7ee1817d")
-		(property "Reference" "DECK-SW3"
+		(property "Reference" "SW3"
 			(at 134.62 53.34 0)
 			(effects
 				(font
@@ -4056,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_LED"
+		(property "Value" "DECK-SW3"
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -4064,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -4106,7 +4012,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "DECK-SW3")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1f96c7-c1d4-4653-97cb-a35fc22095d2")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 57.15 16.51 0)
 			(effects
 				(font
@@ -4240,7 +4146,7 @@
 		(instances
 			(project ""
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4311,6 +4217,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28fe2321-f24d-4627-814a-4bab3866337f")
+		(property "Reference" "#PWR04"
+			(at 39.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60ebc5c-0bff-4504-81f0-3f6be34183fe")
+		)
+		(instances
+			(project "Deck-Btns"
+				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 176.53 80.01 0)
 		(unit 1)
@@ -4335,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 176.53 80.01 90)
 			(effects
 				(font
@@ -4396,73 +4368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3662fa21-c8c3-4a56-9801-671288b21723")
-		(property "Reference" "#PWR041"
-			(at 40.64 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 33.02 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01a1dc89-d448-4a7f-a9cd-527cda11d978")
-		)
-		(instances
-			(project "Deck-Btns"
-				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 176.53 29.21 0)
 		(unit 1)
@@ -4487,7 +4392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 176.53 29.21 90)
 			(effects
 				(font
@@ -4573,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 76.2 115.57 0)
 			(effects
 				(font
@@ -4625,7 +4530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d517a10-f565-449a-83db-e077443ee5db")
-		(property "Reference" "DECK-SW4"
+		(property "Reference" "SW4"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -4633,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_LED"
+		(property "Value" "DECK-SW4"
 			(at 134.62 72.39 0)
 			(effects
 				(font
@@ -4641,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 134.62 85.09 0)
 			(effects
 				(font
@@ -4683,7 +4588,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "DECK-SW4")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f3c17f7-0aba-4fd9-8d6b-53ed374172b6")
-		(property "Reference" "D2"
+		(property "Reference" "D8"
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -4716,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 142.24 132.08 90)
 			(effects
 				(font
@@ -4770,7 +4675,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D2")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50387aa5-9687-4a90-bdc2-c2883fb8d7b8")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 120.396 48.514 0)
 			(effects
 				(font
@@ -4801,7 +4706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 120.65 45.72 90)
 			(effects
 				(font
@@ -4855,7 +4760,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4926,6 +4831,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 39.37 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed25d6b-a45f-4ca2-b054-30805e1748ba")
+		(property "Reference" "#PWR03"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b037df7e-420a-4335-96ec-56dea4f9588c")
+		)
+		(instances
+			(project ""
+				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 76.2 125.73 90)
 		(unit 1)
@@ -4935,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65cda62d-8ea7-4cfb-8763-90eaf8c7504e")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 76.2 120.65 90)
 			(effects
 				(font
@@ -4951,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 76.2 125.73 0)
 			(effects
 				(font
@@ -4987,7 +4958,74 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "R5")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 36.83 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ff6ef8-2673-4d84-9049-441db1def537")
+		(property "Reference" "#PWR02"
+			(at 40.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 33.02 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6640f2d7-fab3-4144-864e-a4915058454f")
+		)
+		(instances
+			(project "Deck-Btns"
+				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5002,7 +5040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f7d7f51-13d1-4ab8-992b-833ccb347f0a")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 121.666 99.314 0)
 			(effects
 				(font
@@ -5018,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 121.92 96.52 90)
 			(effects
 				(font
@@ -5072,7 +5110,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7489e05e-57ee-4cab-a656-30386b87954b")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -5105,7 +5143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 142.24 120.65 90)
 			(effects
 				(font
@@ -5159,7 +5197,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5191,7 +5229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 96.52 120.65 90)
 			(effects
 				(font
@@ -5261,7 +5299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88534e2b-25c1-4117-a032-183074edaa0c")
-		(property "Reference" "SW15"
+		(property "Reference" "SW10"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -5277,7 +5315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -5319,7 +5357,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "SW15")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -5334,7 +5372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e9e013e-408e-48b5-a134-d728358e2931")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 120.396 82.804 0)
 			(effects
 				(font
@@ -5350,7 +5388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 120.65 80.01 90)
 			(effects
 				(font
@@ -5404,7 +5442,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5420,7 +5458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92d13d28-bee7-4023-9963-d8df9815bf68")
-		(property "Reference" "SW13"
+		(property "Reference" "SW8"
 			(at 190.5 53.34 0)
 			(effects
 				(font
@@ -5436,7 +5474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 190.5 68.58 0)
 			(effects
 				(font
@@ -5478,7 +5516,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "SW13")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -5572,7 +5610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c77b437-46ca-4cc7-95f4-41bee69fb647")
-		(property "Reference" "DECK-SW5"
+		(property "Reference" "SW5"
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -5580,7 +5618,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_LED"
+		(property "Value" "DECK-SW5"
 			(at 134.62 88.9 0)
 			(effects
 				(font
@@ -5588,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -5630,7 +5668,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "DECK-SW5")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5645,7 +5683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4a07a62-eb07-416e-a720-a77994c5ba03")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 120.396 66.294 0)
 			(effects
 				(font
@@ -5661,7 +5699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 120.65 63.5 90)
 			(effects
 				(font
@@ -5715,7 +5753,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a91e7322-3286-4f45-a96c-5c046d32d352")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 120.396 32.004 0)
 			(effects
 				(font
@@ -5746,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 120.65 29.21 90)
 			(effects
 				(font
@@ -5800,7 +5838,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5831,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -5904,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 176.53 45.72 90)
 			(effects
 				(font
@@ -6053,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 176.53 63.5 90)
 			(effects
 				(font
@@ -6123,7 +6161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2f00ab2-04c3-463c-8fc8-3047d53e805e")
-		(property "Reference" "SW14"
+		(property "Reference" "SW9"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -6139,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 190.5 85.09 0)
 			(effects
 				(font
@@ -6181,7 +6219,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "SW14")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 96.52 90)
 			(effects
 				(font
@@ -6413,7 +6451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e78fcf2f-41c0-4b90-b6ec-9a33843486e9")
-		(property "Reference" "SW12"
+		(property "Reference" "SW7"
 			(at 190.246 39.37 0)
 			(effects
 				(font
@@ -6429,7 +6467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -6471,7 +6509,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "SW12")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6c10a51-7a23-4a84-97bd-f70f63e1cf3d")
-		(property "Reference" "SW11"
+		(property "Reference" "SW6"
 			(at 190.5 19.05 0)
 			(effects
 				(font
@@ -6503,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 190.5 34.29 0)
 			(effects
 				(font
@@ -6545,7 +6583,7 @@
 		(instances
 			(project "Deck-Btns"
 				(path "/70910c3e-9d36-4fd3-a016-49d1559b8ccd"
-					(reference "SW11")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -6645,7 +6683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led-switch:SW_PUSH_6mm_LED"
+		(property "Footprint" "led-sw:led switch"
 			(at 134.62 34.29 0)
 			(effects
 				(font

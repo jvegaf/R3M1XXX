@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2032,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -128,7 +128,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.4064,
+        "min_track_width": 0.254,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.254,
         0.4064
       ],
       "tuning_pattern_settings": {
@@ -211,6 +212,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -230,7 +239,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|368300|1435100|5dff64f7-7b58-4da0-bee4-14807cc9c671|00000000-0000-0000-0000-000000000000|/70910c3e-9d36-4fd3-a016-49d1559b8ccd|/70910c3e-9d36-4fd3-a016-49d1559b8ccd|",
+      "power_pin_not_driven|368300|1460500|6640f2d7-fab3-4144-864e-a4915058454f|00000000-0000-0000-0000-000000000000|/70910c3e-9d36-4fd3-a016-49d1559b8ccd|/70910c3e-9d36-4fd3-a016-49d1559b8ccd|"
+    ],
     "meta": {
       "version": 0
     },
@@ -541,11 +553,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
