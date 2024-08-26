@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "slider")(type "KiCad")(uri "${KIPRJMOD}/slider.pretty")(options "")(descr ""))
-)
