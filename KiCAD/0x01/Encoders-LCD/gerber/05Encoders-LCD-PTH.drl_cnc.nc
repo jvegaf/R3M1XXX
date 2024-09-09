@@ -4,14 +4,14 @@
 (Type: G-code from Geometry)
 (Units: MM)
 
-(Created on Sunday, 08 September 2024 at 20:58)
+(Created on Monday, 09 September 2024 at 15:46)
 
 (This preprocessor is used with a motion controller loaded with GRBL firmware.)
 (It is configured to be compatible with almost any version of GRBL firmware.)
 
 
 (TOOLS DIAMETER: )
-(Tool: 1 -> Dia: 0.3)
+(Tool: 1 -> Dia: 0.5)
 (Tool: 2 -> Dia: 0.8)
 (Tool: 3 -> Dia: 1.0)
 (Tool: 4 -> Dia: 1.19)
@@ -33,10 +33,10 @@
 
 (Z_CUT: )
 (Tool: 1 -> Z_Cut: -1.8)
-(Tool: 2 -> Z_Cut: -1.8)
-(Tool: 3 -> Z_Cut: -1.8)
-(Tool: 4 -> Z_Cut: -1.8)
-(Tool: 5 -> Z_Cut: -1.8)
+(Tool: 2 -> Z_Cut: -1.7999999999999998)
+(Tool: 3 -> Z_Cut: -1.7999999999999998)
+(Tool: 4 -> Z_Cut: -1.7999999999999998)
+(Tool: 5 -> Z_Cut: -1.7999999999999998)
 
 (Tools Offset: )
 (Tool: 1 -> Offset Z: 0.0)
@@ -49,22 +49,22 @@
 (Tool: 5 -> DeptPerCut: 0.2)
 
 (Z_MOVE: )
-(Tool: 1 -> Z_Move: 2)
-(Tool: 2 -> Z_Move: 2)
-(Tool: 3 -> Z_Move: 2)
-(Tool: 4 -> Z_Move: 2)
-(Tool: 5 -> Z_Move: 2)
+(Tool: 1 -> Z_Move: 2.0)
+(Tool: 2 -> Z_Move: 2.0)
+(Tool: 3 -> Z_Move: 2.0)
+(Tool: 4 -> Z_Move: 2.0)
+(Tool: 5 -> Z_Move: 2.0)
 
 (Z Toolchange: 5.0 mm)
 (X,Y Toolchange: 0.0000, 0.0000 mm)
 (Z Start: None mm)
-(Z End: 4.999999999999998 mm)
+(Z End: 5.0 mm)
 (X,Y End: None mm)
 (Steps per circle: 64)
 (Steps per circle: 64)
 (Preprocessor Excellon: GRBL_11_no_M6)
 
-(X range:  -41.4000 ...   43.6500  mm)
+(X range:  -41.4000 ...   43.7500  mm)
 (Y range:  -32.6350 ...   27.2500  mm)
 
 (Spindle Speed: 900 RPM)
@@ -80,7 +80,7 @@ M5
 G00 Z5.0000
 G00 X0.0000 Y0.0000                
 T1
-(MSG, Change to Tool Dia = 0.3000 ||| Total drills for tool T1 = 22)
+(MSG, Change to Tool Dia = 0.5000 ||| Total drills for tool T1 = 22)
 M0
 G00 Z5.0000
         
