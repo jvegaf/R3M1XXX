@@ -26,15 +26,16 @@ void onAnyEncoder(uint_fast8_t channel, int value, int delta) {
   Serial.print(" delta: ");
   Serial.print(delta);
   Serial.println();
+  digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
 }
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
-  Serial.begin(9600);
-  Serial.println("EncoderTool test");
+  // Serial.begin(9600);
+  // Serial.println("EncoderTool test");
   encoders.begin(CountMode::quarter);
 
-  encoders[0].attachCallback(onFirstEncoder); // standard callback
+  // encoders[0].attachCallback(onFirstEncoder); // standard callback
   encoders.attachCallback(onAnyEncoder);
 }
 
