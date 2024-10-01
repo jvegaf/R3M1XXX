@@ -11,12 +11,12 @@ HT16K33 HT;
 /****************************************************************/
 void setup() {
   uint8_t led;
-  Serial.begin(57600);
+  Serial.begin(9600);
   Serial.println("ht16k33 keyboard and led test v0.01");
   Serial.println();
   // initialize everything, 0x00 is the i2c address for the first chip (0x70 is added in the class).
   HT.begin(0x00);
- 
+
 }
 
 /****************************************************************/
