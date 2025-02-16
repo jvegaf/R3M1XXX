@@ -2,17 +2,17 @@
 #include <Arduino.h>
 using namespace EncoderTool;
 
-uint_fast8_t encoderCount = 8; // number of attached encoders
+constexpr unsigned encoderCount =
+    3; // number of attached  (daisy chain shift regesters for more than 8)
 
-uint_fast8_t  S0 = 6;     // address pin 0
-uint_fast8_t  S1 = 7;     //...
-uint_fast8_t  S2 = 8;     // address pin 2
-uint_fast8_t  SIG_A = 10; // output pin SIG of multiplexer A
-uint_fast8_t  SIG_B = 11;
-// breakout:  https://www.sparkfun.com/products/13906
-// datasheet: https://www.ti.com/lit/gpn/CD74HC4051
+constexpr unsigned QH_A = 10;  // output pin QH of shift register A
+constexpr unsigned QH_B = 11;  // output pin QH of shift register B
+constexpr unsigned pinLD = 12; // load pin for all shift registers)
+constexpr unsigned pinCLK =
+    13; // clock pin for all shift registers
+        // 74165 datasheet: http://www.ti.com/product/SN74HC165
 
-EncPlex4051 encoders(encoderCount, S0, S1, S2, SIG_A, SIG_B);
+EncPlex74165 encoders(encoderCount, pinLD, pinCLK, QH_A, QH_B);
 
 void onFirstEncoder(int value, int delta) {
   digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
