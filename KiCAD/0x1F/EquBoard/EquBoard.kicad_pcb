@@ -1607,7 +1607,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "54b1fa00-853b-42f5-87eb-56262da2ab24")
+			(uuid "f2f0fb94-ac8c-4d3b-86e4-0a176586b34a")
 		)
 		(pad "2" thru_hole circle
 			(at 2.25 -3.25)
@@ -1629,7 +1629,7 @@
 			(net 3 "/SW2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0905c7b8-a958-43fb-beaa-e331f911f3c9")
+			(uuid "11df1351-5b7a-4453-bcf2-43abeb88c245")
 		)
 		(pad "3" thru_hole circle
 			(at 2.8 0)
@@ -2370,7 +2370,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "55aaa1f2-13d7-41fc-9398-a550ada8ccab")
+			(uuid "5e5839d3-d275-42c3-9941-62bf07945440")
 		)
 		(pad "2" thru_hole circle
 			(at 2.25 -3.25)
@@ -2392,7 +2392,7 @@
 			(net 2 "/SW1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "778d5608-d594-466b-a984-0ff38672f038")
+			(uuid "4842d561-e8d0-438f-a601-ee5f57df750e")
 		)
 		(pad "3" thru_hole circle
 			(at 2.8 0)

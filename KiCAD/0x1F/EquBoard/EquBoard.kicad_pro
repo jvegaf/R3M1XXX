@@ -507,7 +507,7 @@
       "plot": "svg/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "EquBoard.step",
       "svg": "",
       "vrml": ""
     },
