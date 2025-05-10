@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-#define encoder_addr 0x36
+#define encoder_addr 0x10
 
 int16_t value, lastvalue;
 boolean pressed, lastpressed;
@@ -14,8 +14,12 @@ int16_t encoder_getValue();
 
 void setup() {
   Serial.begin(9600);
+  while (!Serial)
+    ;
+  Serial.println("I2C Encoder Test");
   Wire.begin();
-  encoder_set(-50, 50, 1, 0, 0);
+  encoder_set(-9999, 9999, 1, 0, 0);
+  Serial.println("Encoder set");
 }
 
 void loop() {
