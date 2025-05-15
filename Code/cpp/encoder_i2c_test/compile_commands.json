@@ -162,6 +162,12 @@
         "output": ".pio/build/zumbt328/lib1ca/Wire/utility/twi.c.o"
     },
     {
+        "command": "/home/th3g3ntl3man/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/zumbt328/src/Encoder.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60118 -DARDUINO_AVR_BT -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/Encoder.cpp",
+        "directory": "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test",
+        "file": "src/Encoder.cpp",
+        "output": ".pio/build/zumbt328/src/Encoder.cpp.o"
+    },
+    {
         "command": "/home/th3g3ntl3man/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/zumbt328/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60118 -DARDUINO_AVR_BT -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/main.cpp",
         "directory": "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test",
         "file": "src/main.cpp",

@@ -18,7 +18,7 @@ void setup() {
     ;
   Serial.println("I2C Encoder Test");
   Wire.begin();
-  encoder_set(0, 1, 1, 0, 1);
+  encoder_set(-50, 50, 1, 0, 1);
   Serial.println("Encoder set");
 }
 
