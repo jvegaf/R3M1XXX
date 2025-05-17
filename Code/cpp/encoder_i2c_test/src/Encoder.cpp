@@ -1,49 +1,43 @@
 #include "Encoder.h"
-#include "Arduino.h"
-#include <Wire.h>
+
+void Encoder::begin() { init(-50, 50, 1, 0, 1); }
 
 void Encoder::init(int16_t rmin, int16_t rmax, int16_t rstep, int16_t rval,
                    uint8_t rloop) {
-  Wire.begin();
-  Wire.beginTransmission(addr);
-  Wire.write((uint8_t)(rval & 0xff));
-  Wire.write((uint8_t)(rval >> 8));
-  Wire.write(0);
-  Wire.write(rloop);
-  Wire.write((uint8_t)(rmin & 0xff));
-  Wire.write((uint8_t)(rmin >> 8));
-  Wire.write((uint8_t)(rmax & 0xff));
-  Wire.write((uint8_t)(rmax >> 8));
-  Wire.write((uint8_t)(rstep & 0xff));
-  Wire.write((uint8_t)(rstep >> 8));
-  Wire.endTransmission();
+  _i2cWire->beginTransmission(addr);
+  _i2cWire->write((uint8_t)(rval & 0xff));
+  _i2cWire->write((uint8_t)(rval >> 8));
+  _i2cWire->write(0);
+  _i2cWire->write(rloop);
+  _i2cWire->write((uint8_t)(rmin & 0xff));
+  _i2cWire->write((uint8_t)(rmin >> 8));
+  _i2cWire->write((uint8_t)(rmax & 0xff));
+  _i2cWire->write((uint8_t)(rmax >> 8));
+  _i2cWire->write((uint8_t)(rstep & 0xff));
+  _i2cWire->write((uint8_t)(rstep >> 8));
+  _i2cWire->endTransmission();
 }
 
 bool Encoder::isPressed() {
-  Wire.requestFrom(addr, 3);
-  Wire.read();
-  Wire.read();
-  boolean cPressed = (Wire.read());
-  if (cPressed != pPressed) {
-    pPressed = cPressed;
-  }
-  return pPressed;
+  _i2cWire->requestFrom(addr, (uint8_t)3);
+  _i2cWire->read();
+  _i2cWire->read();
+  boolean pressed = (_i2cWire->read());
+  return pressed;
 }
 
 int16_t Encoder::getValue() {
-  Wire.requestFrom(addr, 2);
-  if (Wire.available()) {
-    uint16_t cValue = ((uint16_t)Wire.read() | ((uint16_t)Wire.read() << 8));
-    if (cValue != pValue) {
-      pValue = cValue;
-    }
+  uint16_t pValue = 0;
+  _i2cWire->requestFrom(addr, (uint8_t)2);
+  if (_i2cWire->available()) {
+    pValue = ((uint16_t)Wire.read() | ((uint16_t)Wire.read() << 8));
   }
   return pValue;
 }
 
 void Encoder::setValue(int16_t rval) {
-  Wire.beginTransmission(addr);
-  Wire.write((uint8_t)(rval & 0xff));
-  Wire.write((uint8_t)(rval >> 8));
-  Wire.endTransmission();
+  _i2cWire->beginTransmission(addr);
+  _i2cWire->write((uint8_t)(rval & 0xff));
+  _i2cWire->write((uint8_t)(rval >> 8));
+  _i2cWire->endTransmission();
 }
