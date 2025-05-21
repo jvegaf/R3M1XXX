@@ -3,6 +3,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+
 class Encoder {
 public:
   Encoder(uint8_t address, TwoWire* wire) : addr(address), _i2cWire(wire) {}
