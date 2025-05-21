@@ -5,7 +5,7 @@
 
 class Encoder {
 public:
-  Encoder(uint8_t addr, TwoWire &wire) : addr(addr) { _i2cWire = &wire; }
+  Encoder(uint8_t address, TwoWire* wire) : addr(address), _i2cWire(wire) {}
   void begin();
   bool isPressed();
   int16_t getValue();
