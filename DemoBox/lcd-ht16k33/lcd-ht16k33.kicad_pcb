@@ -2443,6 +2443,82 @@
 			(justify left bottom)
 		)
 	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco2.User")
+		(uuid "110c0262-d02b-42f5-b9de-1845cc71c1d7")
+		(pts
+			(xy 146 81) (xy 146 44)
+		)
+		(height 10.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "37"
+			(at 155.35 62.5 90)
+			(layer "Eco2.User")
+			(uuid "110c0262-d02b-42f5-b9de-1845cc71c1d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco2.User")
+		(uuid "915e597e-94aa-48bb-ac64-784e0523c3ba")
+		(pts
+			(xy 86 81) (xy 146 81)
+		)
+		(height 7)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "60"
+			(at 116 86.85 0)
+			(layer "Eco2.User")
+			(uuid "915e597e-94aa-48bb-ac64-784e0523c3ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(segment
 		(start 111.8485 46.6475)
 		(end 112.395 46.101)
