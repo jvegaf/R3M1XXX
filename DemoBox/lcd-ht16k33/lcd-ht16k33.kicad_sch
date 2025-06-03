@@ -3430,7 +3430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOP-24_7.5x15.4mm_P1.27mm"
 			(at 67.31 27.432 0)
 			(effects
 				(font
