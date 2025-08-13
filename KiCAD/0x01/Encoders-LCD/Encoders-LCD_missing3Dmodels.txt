@@ -1,0 +1,16 @@
+### Missing 3D models - created on 2025-08-13 19:47
+### Printed by checking_3D_models plugin
+Board file: /home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/Encoders-LCD/Encoders-LCD.kicad_pcb
+3D missing models written to:
+/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/Encoders-LCD/Encoders-LCD_missing3Dmodels.txt
+-------
+('U3', '/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/shared/SD-3361_X.STEP')
+('ENC3', 'C:/Users/josev/Code/R3M1XXX/KiCAD/shared/EC11B-SW-Vert-20F-blue.step')
+('ENC2', 'C:/Users/josev/Code/R3M1XXX/KiCAD/shared/EC11B-SW-Vert-20F-blue.step')
+('U2', '/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/shared/SD-3361_X.STEP')
+('ENC1', 'C:/Users/josev/Code/R3M1XXX/KiCAD/shared/EC11B-SW-Vert-20F-blue.step')
+('D2', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl')
+('D1', '${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl')
+-------
+NUM of 3D missing models:7
+checked extensions ['.stp', '.step', '.stpZ']

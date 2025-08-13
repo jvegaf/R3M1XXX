@@ -384,17 +384,6 @@
 		(uuid "87f8f3ac-e784-4ffe-97a3-d8efbcca496c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/josev/Code/R3M1XXX/KiCAD/shared/EC11B-SW-Vert-20F-blue.step"
-		(offset
-			(xyz 7.5 -2.5 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 90)
-		)
-	)
 	(model "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/shared/EC11B-SW-Vert-20F-blue.step"
 		(offset
 			(xyz 7.5 -2 0)
