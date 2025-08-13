@@ -226,4 +226,15 @@
 		(uuid "b63629d0-6dc5-4b6d-9722-3a7e919a2532")
 	)
 	(embedded_fonts no)
+	(model "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/shared/SD-3361_X.STEP"
+		(offset
+			(xyz 6.5 5 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
