@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ads7830-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ads7830-eagle-import.kicad_sym")(options "")(descr ""))
+)
