@@ -1,78 +1,127 @@
-# HT16K33 Dual Display Test
+# HT16K33 Dual Display Utility (Diagnóstico + Demo)
 
-Este proyecto prueba dos módulos de display de 7 segmentos de 3 dígitos (modelo 3631AS) controlados por un solo chip HT16K33 conectado a una Raspberry Pi Pico mediante I2C.
+Proyecto para Raspberry Pi Pico que controla **dos módulos 7 segmentos de 3 dígitos** con **un solo HT16K33** (I2C 0x70). Incluye:
+
+- Modo diagnóstico interactivo (calibrar mapeo de segmentos)
+- Modo demo (contador y patrones)
+- Comandos serie para cambiar modo, velocidad, números, inversión y mapping en caliente
 
 ## Hardware
 
-- **Microcontrolador**: Raspberry Pi Pico
-- **Controlador de Display**: 1x HT16K33 (dirección I2C: 0x70)
-- **Displays**: 2x módulos de 3 dígitos de 7 segmentos (3631AS) - cátodo común
-- **Comunicación**: I2C
-  - SDA: GPIO 4 (Pin 6) - por defecto en arduino-mbed
-  - SCL: GPIO 5 (Pin 7) - por defecto en arduino-mbed
+- MCU: Raspberry Pi Pico
+- Driver: HT16K33 @ 0x70
+- Displays: 2 × 3 dígitos, cátodo común (3631AS)
+- I2C: SDA=GPIO4 (Pin 6), SCL=GPIO5 (Pin 7)
 
-## Configuración del Hardware
+Multiplexación:
+- Display 0: COM0/COM1/COM2
+- Display 1: COM3/COM4/COM5
+- Segmentos (a..g, dp) comparten ROWx
 
-El HT16K33 controla ambos displays mediante multiplexación:
-- **Display 1**: Conectado a COM0, COM1, COM2 del HT16K33
-- **Display 2**: Conectado a COM3, COM4, COM5 del HT16K33
-- Los segmentos a-g de ambos displays están conectados a las líneas ROW del HT16K33
+## Funcionalidades
 
-## Funcionalidades del Programa
+### 1. Modo Diagnóstico (default)
+Rota un segmento lógico (a,b,c,d,e,f,g[,dp]) cada segundo para comprobar cableado.
+Permite:
+- Encender bits físicos concretos: `raw <n>`
+- Registrar mapeo lógico→físico: `phys <bit>`
+- Ajustar mapping en vivo: `setmap L P`
+- Ver resumen y plantilla: `map`
 
-1. **Escaneo I2C**: Detecta automáticamente el HT16K33 en la dirección 0x70
-2. **Test de inicialización**: Enciende todos los segmentos para verificar conexiones
-3. **Secuencia de pruebas**:
-   - Contador 0-99 en ambos displays
-   - Números diferentes en cada display
-   - Números incrementales (0-99 vs 100-199)
-   - Test de todos los segmentos
-   - Test de segmentos individuales
-4. **Monitoreo serie**: Salida detallada por el puerto serie a 115200 baud
+### 2. Modo Demo
+Secuencia automática: pares iguales 0–99, pares invertidos, rangos 0–99 vs 100–199, todos los segmentos, y barrido por segmento.
+Puedes fijar números arbitrarios (`num`) y cambiar velocidad (`speed`).
+
+### 3. Escaneo I2C
+Confirma presencia del HT16K33 (0x70) al iniciar.
+
+### 4. Comandos Serie
+Interfaz interactiva a 115200 baud (lista completa abajo).
 
 ## Compilación y Carga
 
 ```bash
-# Compilar el proyecto
-pio run
-
-# Cargar al microcontrolador
-pio run --target upload
-
-# Monitorear salida serie
-pio device monitor
+pio run              # compilar
+pio run --target upload  # cargar
+pio device monitor   # monitor serie (115200)
 ```
+
+## Comandos Serie
+
+| Comando | Descripción |
+|---------|-------------|
+| `help` | Lista de comandos |
+| `mode diag` | Cambia a modo diagnóstico |
+| `mode demo` | Cambia a modo demo |
+| `n` / `next` | Siguiente segmento (diagnóstico) |
+| `p` / `prev` | Segmento anterior |
+| `a` / `auto` | Alterna avance automático/manual |
+| `inv` / `invert` | Invierte lógica (active high/low) |
+| `show` | Repite segmento actual |
+| `raw <bit>` | Enciende un bit físico (0–7) |
+| `phys <bit>` | Asocia bit físico al segmento lógico actual |
+| `setmap <L> <P>` | Fuerza segmentMap[L]=P (L=a..g/dp índice 0–7) |
+| `map` | Muestra mapping actual y sugerido |
+| `resetmap` | Limpia mapeo observado |
+| `num A B` | (demo) Muestra A en display 0 y B en display 1 |
+| `speed ms` | (demo) Ajusta intervalo (≥50 ms) |
+| `resetdemo` | Reinicia secuencia demo |
+
+## Procedimiento de Calibración de Mapping
+1. Arranca (ya en modo diag).
+2. Ejecuta `raw 0` .. `raw 7` y anota qué segmento lógico se ilumina.
+3. Posiciónate en el segmento lógico correcto (comandos `next`/`prev`).
+4. Usa `phys <bit>` para registrar el bit físico observado.
+5. Repite hasta cubrir a..g (y dp si aplica).
+6. Ejecuta `map` y copia el array sugerido en el código si deseas fijarlo permanentemente.
 
 ## Solución de Problemas
 
-### El display no enciende
-- Verificar conexiones I2C (SDA=GPIO4/Pin6, SCL=GPIO5/Pin7)
-- Verificar alimentación del HT16K33 (3.3V/5V según diseño)
-- Verificar que la dirección I2C sea 0x70
+### Nada aparece al arrancar
+1. Confirmar alimentación y masa comunes.
+2. Revisar salida del escaneo I2C: debe detectar 0x70.
+3. Si no detecta: comprobar pull-ups y continuidad SDA/SCL.
 
-### Solo funciona un display
-- Verificar conexiones de los pines COM3-COM5 para el segundo display
-- Verificar conexiones de cátodos comunes
+### Segmentos mezclados
+Seguir el procedimiento de calibración y actualizar `segmentMap`.
 
-### Segmentos incorrectos
-- Verificar la tabla de dígitos `digitTable[]` para displays cátodo común
-- Verificar conexiones ROW0-ROW6 del HT16K33
+### Segmentos invertidos (todo iluminado excepto el objetivo)
+Usar `invert` (cambia `segmentsActiveHigh`).
 
-## Configuración del Buffer HT16K33
+### Solo un display responde
+Revisar conexiones COM3–COM5 y soldaduras.
 
-El HT16K33 utiliza un buffer de 16 bytes donde cada byte representa una fila de la matriz:
-- Bytes 0, 2, 4: Display 1 (dígitos 1, 2, 3)
-- Bytes 6, 8, 10: Display 2 (dígitos 1, 2, 3)
-- Los bytes impares se pueden usar para control adicional
+### Ghosting / Artefactos
+- Reducir brillo (`HT16K33_CMD_BRIGHTNESS | n`, n=0..15)
+- Cables más cortos / mejor alimentación.
 
-## Personalización
+## Diseño del Buffer
 
-Para cambiar la dirección I2C, modifica las constantes en `main.cpp`:
+Se escriben 16 bytes iniciando en 0x00. Usamos sólo índices pares:
+- Display 0: buffer[0], buffer[2], buffer[4]
+- Display 1: buffer[6], buffer[8], buffer[10]
+Los impares quedan en 0.
 
+## Personalización Rápida
+
+Dirección I2C:
 ```cpp
-#define HT16K33_ADDRESS 0x70  // Dirección I2C del HT16K33
+#define HT16K33_ADDRESS 0x70
 ```
 
-**Nota**: Los pines I2C están fijados por el framework arduino-mbed:
-- SDA: GPIO 4 (Pin 6)  
-- SCL: GPIO 5 (Pin 7)
+Mapping segmentos (en `main.cpp`):
+```cpp
+static uint8_t segmentMap[8] = {0,1,2,3,4,5,6,7}; // a,b,c,d,e,f,g,dp
+```
+
+Brillo (0–15) en init:
+```cpp
+writeCommand(HT16K33_ADDRESS, HT16K33_CMD_BRIGHTNESS | 8);
+```
+
+Velocidad demo (comando):
+```
+speed 250
+```
+
+I2C (arduino-mbed Pico): SDA GPIO4, SCL GPIO5.
