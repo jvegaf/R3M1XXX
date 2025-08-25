@@ -25,12 +25,8 @@ public:
     }
 
     void clear() {
-        // auto-increment write then write 16 zeros
-        sendCommand(0x40);
-        start();
-        writeByte(0xC0);
-        for (int i = 0; i < 16; ++i) writeByte(0x00);
-        stop();
+    uint8_t zeros[16] = {0};
+    setRaw16(zeros);
     }
 
     void setRawAt(uint8_t pos /*0..7*/, uint8_t segMask, bool led = false) {
@@ -68,7 +64,7 @@ public:
         uint32_t val = 0;
         start();
         writeByte(0x42); // read key scan data
-        pinMode(dio, INPUT);
+    pinMode(dio, INPUT_PULLUP);
         for (int i = 0; i < 4; ++i) {
             uint8_t b = readByte();
             val |= ((uint32_t)b) << (i * 8);
@@ -123,7 +119,8 @@ private:
         }
         // ACK bit from TM1638: it pulls DIO low; we must release DIO and read while CLK high
         digitalWrite(clk, LOW);
-        pinMode(dio, INPUT);
+    // Release DIO and enable pull-up so the line idles high while TM1638 drives it low for ACK
+    pinMode(dio, INPUT_PULLUP);
         delayMicroseconds(2);
         digitalWrite(clk, HIGH);
         // optional read ACK here if needed
