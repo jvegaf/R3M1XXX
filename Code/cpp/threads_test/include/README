@@ -1,0 +1,27 @@
+
+Este directorio está destinado a los archivos de cabecera (headers) del proyecto.
+
+Un archivo de cabecera contiene declaraciones en C y definiciones de macros que se comparten entre varios archivos fuente del proyecto. Se utiliza en un archivo fuente (C, C++, etc.) dentro de `src` incluyéndolo con la directiva del preprocesador `#include`.
+
+```src/main.c
+
+#include "header.h"
+
+int main (void)
+{
+ ...
+}
+```
+
+Incluir un archivo de cabecera produce el mismo resultado que copiar su contenido en cada archivo fuente que lo necesita. Copiarlo manualmente sería lento y propenso a errores. Con un único header, las declaraciones relacionadas aparecen en un solo lugar; si requieren cambios, se modifican allí y todos los archivos que lo incluyen usarán la nueva versión al recompilar.
+
+En C, la convención es que los archivos de cabecera terminen en `.h`.
+
+Más información en la documentación oficial de GCC:
+
+* Include Syntax
+* Include Operation
+* Once-Only Headers
+* Computed Includes
+
+https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html

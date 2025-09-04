@@ -8,9 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/pads_demo/include",
-                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/pads_demo/src",
-                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/pads_demo/.pio/libdeps/esp32-c3-devkitm-1/Adafruit NeoPixel",
+                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/include",
+                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/src",
+                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/.pio/libdeps/esp32-c3-devkitm-1/htcw_freertos_thread_pack/include",
+                "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/.pio/libdeps/esp32-c3-devkitm-1/htcw_freertos_thread_pack/src",
                 "/home/th3g3ntl3man/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include",
                 "/home/th3g3ntl3man/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include",
                 "/home/th3g3ntl3man/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos",
@@ -242,9 +243,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/pads_demo/include",
-                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/pads_demo/src",
-                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/pads_demo/.pio/libdeps/esp32-c3-devkitm-1/Adafruit NeoPixel",
+                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/include",
+                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/src",
+                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/.pio/libdeps/esp32-c3-devkitm-1/htcw_freertos_thread_pack/include",
+                    "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/threads_test/.pio/libdeps/esp32-c3-devkitm-1/htcw_freertos_thread_pack/src",
                     "/home/th3g3ntl3man/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/newlib/platform_include",
                     "/home/th3g3ntl3man/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include",
                     "/home/th3g3ntl3man/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32c3/include/freertos/include/esp_additions/freertos",
