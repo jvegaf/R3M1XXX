@@ -81,7 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(aux_axis_origin 90 82)
+		(aux_axis_origin 39.878 120.142)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -473,7 +473,7 @@
 			(net 2 "Net-(D1-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "40b61977-ad04-45da-975d-7236befabbbf")
+			(uuid "afdabca8-8bdc-46c4-b17d-aa4ddcd9b5bf")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 90)
@@ -495,7 +495,7 @@
 			(net 16 "/SEG3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ad892aad-fea6-4474-a7ca-9232ddaad9a0")
+			(uuid "b8ada1b2-d3d2-4ac4-9b80-d8d04d6e3873")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H4.3mm.step"
@@ -1265,7 +1265,7 @@
 			(drill 2.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "ac6f9ead-5520-4870-9e27-f0dd660b0ca9")
+			(uuid "47fe71be-5aa1-4017-845c-81c4ebc0a6d4")
 		)
 		(pad "S1" thru_hole circle
 			(at 14.5 5 270)
@@ -2011,7 +2011,7 @@
 			(net 2 "Net-(D1-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7e57637b-2fc7-4e41-988f-b554a1b00733")
+			(uuid "d5af7d41-d2cb-4373-a934-ca0614d133b0")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 90)
@@ -2033,7 +2033,7 @@
 			(net 3 "/SEG1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "535bb87f-33b8-48d9-b20c-0840aa69ce13")
+			(uuid "07b0643b-0731-4d61-944c-6d059daaeef1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H4.3mm.step"
@@ -2726,7 +2726,7 @@
 			(drill 2.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "e86f69c7-326a-49db-9d00-a95257bc704d")
+			(uuid "90214bbb-f6bf-454a-904d-e1943fce88aa")
 		)
 		(pad "S1" thru_hole circle
 			(at 14.5 5 270)
@@ -3418,7 +3418,7 @@
 			(drill 2.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4b21d73b-ae3f-4ba5-9dca-de043f97c5d3")
+			(uuid "c3bb7ac9-2d4d-4ef5-adc9-40ad2ac196fc")
 		)
 		(pad "S1" thru_hole circle
 			(at 14.5 5 90)
@@ -3964,7 +3964,7 @@
 			(net 2 "Net-(D1-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "eb197819-5018-43f7-8d63-cdf28c403824")
+			(uuid "8a509a60-1f8c-4574-93b3-d7f1a06982cd")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 90)
@@ -3986,7 +3986,7 @@
 			(net 14 "/SEG2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "299f062c-466f-4e64-b4fc-4ff597d7be09")
+			(uuid "418e7701-c77f-4eff-8047-8a50fa7add1f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H4.3mm.step"
@@ -9641,7 +9641,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2992.1260 mils"
+		(gr_text "76.0000 mm"
 			(at 152.52 82 90)
 			(layer "Eco2.User")
 			(uuid "14914d14-e836-4883-b505-1fc11e33c530")
@@ -9677,7 +9677,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3937.0079 mils"
+		(gr_text "100.0000 mm"
 			(at 89.999999 29.920278 1.145915576e-06)
 			(layer "Eco2.User")
 			(uuid "63bc9da1-9920-4dc5-a20c-66db49986fd4")
