@@ -5448,7 +5448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 46.99 73.66 0)
 			(effects
 				(font
@@ -5938,7 +5938,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 25.4 96.52 0)
 			(effects
 				(font
@@ -7723,7 +7723,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 25.4 27.94 0)
 			(effects
 				(font
@@ -7796,7 +7796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 25.4 73.66 0)
 			(effects
 				(font
@@ -8206,7 +8206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 46.99 27.94 0)
 			(effects
 				(font
@@ -8346,7 +8346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 25.4 50.8 0)
 			(effects
 				(font
@@ -9445,7 +9445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "led-sw:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 46.99 96.52 0)
 			(effects
 				(font
