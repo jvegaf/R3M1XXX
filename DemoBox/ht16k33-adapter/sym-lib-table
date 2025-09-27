@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "r3m1xxx_Library")(type "KiCad")(uri "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/0x01/libraries/r3m1xxx_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "ht16k33_sop28")(type "KiCad")(uri "/home/th3g3ntl3man/Code/R3M1XXX/KiCAD/shared/ht16k33_sop28.kicad_sym")(options "")(descr ""))
+)
