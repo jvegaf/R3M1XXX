@@ -2964,16 +2964,6 @@
 		(uuid "75cdf0e7-6a21-45a6-b37f-e0edfbee2814")
 	)
 	(fp_line
-		(start 6.780849 -1.054697)
-		(end 6.824473 -0.711387)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "193b9368-f4ce-4a92-82fa-31fbdcb438f6")
-	)
-	(fp_line
 		(start 6.780856 1.034693)
 		(end 6.720529 1.372507)
 		(stroke
@@ -2982,76 +2972,6 @@
 		)
 		(layer "F.Cu")
 		(uuid "6d225d26-65d1-471f-bfa2-28135139c572")
-	)
-	(fp_line
-		(start 6.824473 -0.711387)
-		(end 6.850964 -0.363012)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "378033c5-dc44-4d6e-99be-fe7c38ac35b2")
-	)
-	(fp_line
-		(start 6.824481 0.691382)
-		(end 6.780856 1.034693)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "14e3992c-e32c-4f06-b2af-9a3b17246cf6")
-	)
-	(fp_line
-		(start 6.850964 -0.363012)
-		(end 6.85989 -0.010003)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "0de17480-832c-43d4-96ad-1df626bed444")
-	)
-	(fp_line
-		(start 6.850972 0.343007)
-		(end 6.824481 0.691382)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "b2cf8e0c-2f52-42a0-83f9-837a83d5cc06")
-	)
-	(fp_line
-		(start 6.85989 -0.010003)
-		(end 5.801563 -0.010003)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "27072fd6-0fe4-42aa-8dbc-e4c19e36d78d")
-	)
-	(fp_line
-		(start 6.85989 -0.010003)
-		(end 6.85989 -0.010003)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "4cb4aa11-9e2e-44e3-b73b-45a4ba016911")
-	)
-	(fp_line
-		(start 6.859898 -0.010003)
-		(end 6.850972 0.343007)
-		(stroke
-			(width 0.379999)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "d8534bbc-973d-401e-8c5c-8088d76ffde5")
 	)
 	(fp_circle
 		(center -0.039697 -0.05)
@@ -3084,8 +3004,8 @@
 		(uuid "b18f531c-e4f9-4670-acca-e69b7193a192")
 	)
 	(pad "2" connect rect
-		(at 7.3 -0.01 90)
-		(size 2 1)
+		(at 7.15 -0.01 90)
+		(size 2 1.3)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 1)
 		(uuid "303319a3-920a-420d-a341-a8465a0f3b36")
