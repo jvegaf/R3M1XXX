@@ -56,6 +56,7 @@ enum class TestMode : uint8_t {
   LED_BY_COLUMN,     // Test LEDs column by column
   LED_PATTERN,       // Test specific patterns
   LED_INDIVIDUAL,    // Test individual LED
+  LED_MANUAL,        // Manual LED control with j/k keys
   KEY_MAPPING,       // Keyboard mapping test
   KEY_RAW_DATA,      // Show raw keyboard data
   INTERACTIVE,       // Combined interactive mode
@@ -77,17 +78,18 @@ void displayMenu() {
   Serial.println(F("║    3 - Test LEDs by Column                ║"));
   Serial.println(F("║    4 - Pattern Test (checkerboard, etc)   ║"));
   Serial.println(F("║    5 - Individual LED Test                ║"));
-  Serial.println(F("║    6 - LED Grid View                      ║"));
+  Serial.println(F("║    6 - Manual LED Control (j/k keys)      ║"));
+  Serial.println(F("║    7 - LED Grid View                      ║"));
   Serial.println(F("║                                           ║"));
   Serial.println(F("║  Keyboard Tests:                          ║"));
-  Serial.println(F("║    7 - Keyboard Mapping                   ║"));
-  Serial.println(F("║    8 - Raw Keyboard Data                  ║"));
+  Serial.println(F("║    8 - Keyboard Mapping                   ║"));
+  Serial.println(F("║    9 - Raw Keyboard Data                  ║"));
   Serial.println(F("║                                           ║"));
   Serial.println(F("║  Combined:                                ║"));
-  Serial.println(F("║    9 - Interactive Mode (LED + Keys)      ║"));
+  Serial.println(F("║    i - Interactive Mode (LED + Keys)      ║"));
   Serial.println(F("║    0 - Show this menu                     ║"));
   Serial.println(F("╚═══════════════════════════════════════════╝"));
-  Serial.println(F("Enter choice (0-9): "));
+  Serial.println(F("Enter choice: "));
 }
 
 /****************************************************************
@@ -345,6 +347,68 @@ void testLedPatterns() {
   
   Serial.println(F("\n=== Pattern Test Complete ===\n"));
   delay(1000);
+}
+
+/****************************************************************
+ * Manual LED Control
+ * Control LED position with j (forward) and k (backward) keys
+ ****************************************************************/
+void testLedManual() {
+  Serial.println(F("\n╔═══════════════════════════════════════════╗"));
+  Serial.println(F("║       Manual LED Control                  ║"));
+  Serial.println(F("╠═══════════════════════════════════════════╣"));
+  Serial.println(F("║  Controls:                                ║"));
+  Serial.println(F("║    j - Next LED (forward)                 ║"));
+  Serial.println(F("║    k - Previous LED (backward)            ║"));
+  Serial.println(F("║    Any other key - Exit to menu           ║"));
+  Serial.println(F("╚═══════════════════════════════════════════╝"));
+  
+  uint8_t currentLed = 0;
+  bool exitRequested = false;
+  
+  // Display initial LED
+  HT.clearAll();
+  HT.setLedNow(currentLed);
+  displayLedInfo(currentLed);
+  
+  while (!exitRequested) {
+    if (Serial.available()) {
+      char ch = Serial.read();
+      
+      switch (ch) {
+        case 'j':
+        case 'J':
+          // Advance to next LED
+          HT.clearLedNow(currentLed);
+          currentLed = (currentLed + 1) % LED_COUNT;  // Wrap around at 127
+          HT.setLedNow(currentLed);
+          displayLedInfo(currentLed);
+          break;
+          
+        case 'k':
+        case 'K':
+          // Go to previous LED
+          HT.clearLedNow(currentLed);
+          if (currentLed == 0) {
+            currentLed = LED_COUNT - 1;  // Wrap to 127
+          } else {
+            currentLed--;
+          }
+          HT.setLedNow(currentLed);
+          displayLedInfo(currentLed);
+          break;
+          
+        default:
+          // Any other key exits
+          Serial.println(F("\n[EXITING] Returning to menu..."));
+          HT.clearAll();
+          exitRequested = true;
+          break;
+      }
+    }
+  }
+  
+  delay(500);
 }
 
 /****************************************************************
@@ -609,22 +673,26 @@ void loop() {
           currentMode = TestMode::LED_INDIVIDUAL;
           break;
         case '6':
-          currentMode = TestMode::LED_GRID_VIEW;
+          currentMode = TestMode::LED_MANUAL;
           break;
         case '7':
-          currentMode = TestMode::KEY_MAPPING;
+          currentMode = TestMode::LED_GRID_VIEW;
           break;
         case '8':
-          currentMode = TestMode::KEY_RAW_DATA;
+          currentMode = TestMode::KEY_MAPPING;
           break;
         case '9':
+          currentMode = TestMode::KEY_RAW_DATA;
+          break;
+        case 'i':
+        case 'I':
           currentMode = TestMode::INTERACTIVE;
           break;
         case '0':
           displayMenu();
           break;
         default:
-          Serial.println(F("Invalid choice! Please enter 0-9."));
+          Serial.println(F("Invalid choice! Please enter 0-9 or i."));
           displayMenu();
           break;
       }
@@ -659,6 +727,12 @@ void loop() {
       
     case TestMode::LED_INDIVIDUAL:
       testIndividualLed();
+      currentMode = TestMode::MENU;
+      displayMenu();
+      break;
+      
+    case TestMode::LED_MANUAL:
+      testLedManual();
       currentMode = TestMode::MENU;
       displayMenu();
       break;
