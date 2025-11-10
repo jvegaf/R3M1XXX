@@ -3118,6 +3118,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 115.57) (xy 260.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cbd89c-2468-41ad-b9e6-698adef66bff")
+	)
+	(wire
+		(pts
 			(xy 256.54 31.75) (xy 259.08 31.75)
 		)
 		(stroke
@@ -3148,16 +3158,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 142.24) (xy 222.25 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b53036d-5630-4bd5-9fb8-8797114111d8")
-	)
-	(wire
-		(pts
 			(xy 101.6 93.98) (xy 109.22 93.98)
 		)
 		(stroke
@@ -3185,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "0e56f3ff-6146-4f92-b950-7ea53d2bd3b3")
+	)
+	(wire
+		(pts
+			(xy 240.03 115.57) (xy 240.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecd74a1-60f6-4619-bacc-adc69797c120")
 	)
 	(wire
 		(pts
@@ -3278,6 +3288,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 124.46) (xy 260.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2509c57b-82c7-461f-931c-ba7e9c37fc64")
+	)
+	(wire
+		(pts
 			(xy 132.08 40.64) (xy 138.43 40.64)
 		)
 		(stroke
@@ -3358,13 +3378,23 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 86.36) (xy 232.41 90.17)
+			(xy 240.03 92.71) (xy 240.03 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3684026a-1a62-45b3-9139-d5a501e30fbd")
+	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 231.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a88e85c-7ea3-4619-9de2-9908adb4c09e")
 	)
 	(wire
 		(pts
@@ -3378,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 128.27) (xy 222.25 128.27)
+			(xy 124.46 173.99) (xy 137.16 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3398,16 +3428,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 242.57 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4088dc3c-f6c3-491f-a26d-3701083f5a9e")
-	)
-	(wire
-		(pts
 			(xy 101.6 88.9) (xy 109.22 88.9)
 		)
 		(stroke
@@ -3415,16 +3435,6 @@
 			(type default)
 		)
 		(uuid "40c04ebf-3323-45b1-ba2b-dbef056ee703")
-	)
-	(wire
-		(pts
-			(xy 251.46 86.36) (xy 251.46 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4170721f-b3e6-4bc3-b314-652f11f3d561")
 	)
 	(wire
 		(pts
@@ -3448,13 +3458,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 77.47) (xy 269.24 81.28)
+			(xy 240.03 124.46) (xy 240.03 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45fa8153-1c0b-42a1-b58d-e701884ade86")
+		(uuid "4482b73c-1097-4012-b381-4f829b02f80e")
 	)
 	(wire
 		(pts
@@ -3488,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 125.73) (xy 222.25 125.73)
+			(xy 124.46 171.45) (xy 137.16 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 77.47) (xy 232.41 81.28)
+			(xy 240.03 83.82) (xy 240.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 77.47) (xy 223.52 81.28)
+			(xy 231.14 83.82) (xy 231.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3708,6 +3718,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 83.82) (xy 260.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8025e519-d1af-481e-86a0-00d8cbcba054")
+	)
+	(wire
+		(pts
 			(xy 180.34 43.18) (xy 186.69 43.18)
 		)
 		(stroke
@@ -3735,6 +3755,16 @@
 			(type default)
 		)
 		(uuid "83c15460-ecee-4818-b794-03d3254e095a")
+	)
+	(wire
+		(pts
+			(xy 260.35 92.71) (xy 260.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862e0874-c304-4a06-b667-658711edd889")
 	)
 	(wire
 		(pts
@@ -3768,16 +3798,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 86.36) (xy 260.35 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d292629-2879-4406-bdb3-321589ddfa5c")
-	)
-	(wire
-		(pts
 			(xy 132.08 137.16) (xy 124.46 137.16)
 		)
 		(stroke
@@ -3795,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "8f0c6abb-65e1-417f-ae23-48ee8066f2f4")
+	)
+	(wire
+		(pts
+			(xy 251.46 83.82) (xy 251.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906475d8-5d01-4c6b-b82c-a022ec9b2e4e")
 	)
 	(wire
 		(pts
@@ -3878,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 115.57) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31f356f-a90d-416f-a8bc-973bbf0e33f3")
+	)
+	(wire
+		(pts
 			(xy 66.04 104.14) (xy 58.42 104.14)
 		)
 		(stroke
@@ -3905,16 +3945,6 @@
 			(type default)
 		)
 		(uuid "aa18be71-b0c0-428e-969d-48b252dc4eba")
-	)
-	(wire
-		(pts
-			(xy 260.35 77.47) (xy 260.35 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6a7ffe-e47a-4d83-9111-ccc206045358")
 	)
 	(wire
 		(pts
@@ -4018,6 +4048,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 124.46) (xy 251.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b39861-a250-48b8-9728-c4231793424c")
+	)
+	(wire
+		(pts
 			(xy 180.34 45.72) (xy 186.69 45.72)
 		)
 		(stroke
@@ -4078,13 +4118,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 144.78) (xy 222.25 144.78)
+			(xy 251.46 92.71) (xy 251.46 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d86c1651-2c21-4697-9bc0-ba7de1831248")
+		(uuid "cde2d7f7-eae1-4ddb-91ac-7a43ee994bb6")
+	)
+	(wire
+		(pts
+			(xy 231.14 124.46) (xy 231.14 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec0f8d7-a2c5-44d1-84dd-0e169d237fb6")
 	)
 	(wire
 		(pts
@@ -4108,16 +4158,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 86.36) (xy 269.24 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca3a658-70ab-40eb-9456-87881bb942b1")
-	)
-	(wire
-		(pts
 			(xy 227.33 40.64) (xy 233.68 40.64)
 		)
 		(stroke
@@ -4135,16 +4175,6 @@
 			(type default)
 		)
 		(uuid "e1da7fae-c96f-4c5b-815b-817458becb0c")
-	)
-	(wire
-		(pts
-			(xy 251.46 77.47) (xy 251.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6d15828-4aee-4332-aa58-22d68a9cbf75")
 	)
 	(wire
 		(pts
@@ -4218,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 86.36) (xy 223.52 90.17)
+			(xy 231.14 92.71) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4245,16 +4275,6 @@
 			(type default)
 		)
 		(uuid "fba85ddc-373b-450b-81d6-b6498152d195")
-	)
-	(wire
-		(pts
-			(xy 242.57 77.47) (xy 242.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0c3af5-f7ac-44bd-ac64-46cae18d7ee7")
 	)
 	(label "SW1"
 		(at 138.43 43.18 180)
@@ -4287,7 +4307,7 @@
 		(uuid "0299ada4-0935-4d11-8825-302ce3f7e686")
 	)
 	(label "SCL"
-		(at 209.55 128.27 0)
+		(at 124.46 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4426,16 +4446,6 @@
 		)
 		(uuid "25013cb9-f521-4ec0-b4c6-78b218b729a4")
 	)
-	(label "SDA"
-		(at 209.55 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25dc0997-8af7-493b-9361-2c0995d78c20")
-	)
 	(label "COM2"
 		(at 199.39 135.89 180)
 		(effects
@@ -4467,7 +4477,7 @@
 		(uuid "2b1ee4cc-7c40-4580-8f82-7320628e5987")
 	)
 	(label "SDA"
-		(at 209.55 125.73 0)
+		(at 124.46 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4525,16 +4535,6 @@
 			(justify right bottom)
 		)
 		(uuid "35715a39-ae08-4d79-ad11-ccac1ac88799")
-	)
-	(label "SCL"
-		(at 209.55 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41707ace-6cd9-42ab-a6a3-1b2e3e70154f")
 	)
 	(label "SEG1"
 		(at 101.6 124.46 0)
@@ -5025,7 +5025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a0ac9b0-6417-40c5-aae9-02750b7ece7e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5247,6 +5247,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 240.03 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f65a32e-d1d8-49f3-a2fc-1334d4918cea")
+		(property "Reference" "#PWR023"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa8aad3-e24b-4a8a-9d32-a5b38f1c1318")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 151.13 0)
 		(unit 1)
@@ -5255,7 +5321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "133e4028-e83f-408d-be33-8f2ebd8f014a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 161.29 157.48 0)
 			(effects
 				(font
@@ -5305,7 +5371,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5380,78 +5446,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 251.46 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18348e91-cc8b-49d5-bfe2-fabc54c8911a")
-		(property "Reference" "C4"
-			(at 248.92 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 249.174 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 251.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 251.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4ae6b28-9985-4931-b3cf-ddecfb13447c")
-		)
-		(pin "1"
-			(uuid "c7befa23-da3f-410b-906e-4ede6ab5ab3d")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
-		(at 254 129.54 0)
+		(at 86.36 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5460,7 +5456,7 @@
 		(fields_autoplaced yes)
 		(uuid "188d5b27-2e4e-4790-a996-c58522a1fb77")
 		(property "Reference" "H2"
-			(at 257.81 128.2699 0)
+			(at 90.17 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5465,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3"
-			(at 257.81 130.8099 0)
+			(at 90.17 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5474,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 133.35 0)
+			(at 86.36 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 129.54 0)
+			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5492,7 @@
 			)
 		)
 		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
-			(at 254 129.54 0)
+			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 120.65 270)
+		(at 137.16 166.37 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5523,8 +5519,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c6d4ff-eaaf-43ed-9235-6fdf442ecacc")
-		(property "Reference" "#PWR015"
-			(at 215.9 120.65 0)
+		(property "Reference" "#PWR09"
+			(at 130.81 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 216.916 120.65 90)
+			(at 131.826 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 120.65 0)
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 120.65 0)
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 120.65 0)
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5569,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5646,17 +5642,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 269.24 90.17 0)
+		(lib_id "Device:C_Small")
+		(at 231.14 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "21322ecf-0517-4e63-accf-52282c919a48")
-		(property "Reference" "#PWR032"
-			(at 269.24 96.52 0)
+		(uuid "1eda6fd6-7a1e-4f31-8c26-7bd14a2d4df0")
+		(property "Reference" "C2"
+			(at 228.6 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 228.854 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,16 +5678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 269.24 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 90.17 0)
+		(property "Datasheet" "~"
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,8 +5687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 269.24 90.17 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,39 +5696,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "7ae140e2-2c22-41a4-b67f-4bcf688c6e82")
 		)
 		(pin "1"
-			(uuid "3833653d-8663-4e7c-9b8e-af942770b040")
+			(uuid "58635eac-3cf4-4021-8202-9009c96d2446")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR032")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 260.35 90.17 0)
-		(mirror y)
+		(lib_id "power:VCC")
+		(at 251.46 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "24322b72-0b3c-498f-932b-a1c0b2e129f6")
-		(property "Reference" "#PWR030"
-			(at 260.35 96.52 0)
+		(fields_autoplaced yes)
+		(uuid "221547dd-a5b5-46d3-8dfa-9a67748b139c")
+		(property "Reference" "#PWR027"
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,8 +5730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.35 93.726 0)
+		(property "Value" "VCC"
+			(at 251.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 90.17 0)
+			(at 251.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 90.17 0)
+			(at 251.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,8 +5756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 251.46 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,12 +5766,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "b65b0ded-68f0-4b0a-9cab-9bc86d892d11")
+			(uuid "19ec425a-f1fc-497d-876b-bc1fd6403e91")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR030")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23bd6efb-376c-4eda-9944-d412fae72c6d")
+		(property "Reference" "C6"
+			(at 248.92 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 249.174 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 251.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cf62326-4402-4cf4-8d71-0204f51f4c08")
+		)
+		(pin "1"
+			(uuid "8fa506c7-86be-4d42-a72a-aaaa785ebb1f")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5840,6 +5910,72 @@
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "295de7da-f2b1-4110-af91-41161696d25a")
+		(property "Reference" "#PWR024"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecf94c0f-2b6d-4b9b-9208-6f4407c6ccdb")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6000,7 +6136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 90.17 0)
+		(at 240.03 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6009,7 +6145,7 @@
 		(dnp no)
 		(uuid "443bdb75-74c9-4c68-9ecd-341dd53f1086")
 		(property "Reference" "#PWR022"
-			(at 232.41 96.52 0)
+			(at 240.03 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 93.726 0)
+			(at 240.03 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 90.17 0)
+			(at 240.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 90.17 0)
+			(at 240.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 90.17 0)
+			(at 240.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 90.17 0)
+		(at 231.14 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6151,8 +6287,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "458bd3f5-7102-4da4-84c1-677915a7a981")
-		(property "Reference" "#PWR020"
-			(at 223.52 96.52 0)
+		(property "Reference" "#PWR018"
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 93.726 0)
+			(at 231.14 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 90.17 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 90.17 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6323,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 90.17 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6337,77 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR020")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 260.35 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49d6dedd-8d53-439f-a338-ef8a95332158")
+		(property "Reference" "C7"
+			(at 257.81 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 259.588 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acabbbcd-2fa0-4304-a811-3bf7179c8548")
+		)
+		(pin "1"
+			(uuid "05f22bf0-4238-4ff4-82c0-db7213922522")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6209,16 +6415,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 90.17 0)
+		(at 260.35 128.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5370b218-9fbc-4005-843c-897e1b260f3f")
-		(property "Reference" "#PWR026"
-			(at 251.46 96.52 0)
+		(uuid "522238b3-c91a-4fd2-aa7e-d68f2bf28acb")
+		(property "Reference" "#PWR034"
+			(at 260.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 93.726 0)
+			(at 260.35 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 90.17 0)
+			(at 260.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 90.17 0)
+			(at 260.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 90.17 0)
+			(at 260.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,12 +6468,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fd42813-9bef-4ff1-b312-102fcc77d123")
+			(uuid "43769ae0-f42d-4e63-a688-092516b05d5c")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6337,73 +6543,6 @@
 			(project ""
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 222.25 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54f514eb-b02b-4f38-a062-cc0e0716bc5b")
-		(property "Reference" "#PWR018"
-			(at 226.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 218.44 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a8eccfd-bf63-450e-9ba4-485ed586ba44")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6657,6 +6796,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 260.35 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "575013af-e689-4b44-9b5d-b334230887ac")
+		(property "Reference" "C8"
+			(at 257.81 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 259.588 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e21beb5-f88d-48fc-a6a0-aaba26718fd0")
+		)
+		(pin "1"
+			(uuid "74d0bec5-52fb-4152-a869-1b379998868c")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 53.34 129.54 0)
 		(unit 1)
@@ -6860,7 +7069,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
-		(at 254 120.65 0)
+		(at 86.36 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6869,7 +7078,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ca90477-5169-436a-8ed1-8fce322944b3")
 		(property "Reference" "H1"
-			(at 257.81 119.3799 0)
+			(at 90.17 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7087,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3"
-			(at 257.81 121.9199 0)
+			(at 90.17 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +7096,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 124.46 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +7105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 120.65 0)
+			(at 86.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +7114,7 @@
 			)
 		)
 		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
-			(at 254 120.65 0)
+			(at 86.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,72 +7199,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 251.46 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "619f8be1-2245-48f2-8fc2-8bec74ef98d8")
-		(property "Reference" "#PWR025"
-			(at 251.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 251.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 251.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ac01dfe-f54d-42bf-9c80-eae0116dfc51")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 165.1 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7064,7 +7207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ae14f0-838a-42e5-8f4f-d173871e4d4c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 165.1 30.48 0)
 			(effects
 				(font
@@ -7114,7 +7257,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7255,93 +7398,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 227.33 142.24 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "667b46b8-ea2b-44ee-9e92-2f9f8ed1761a")
-		(property "Reference" "J2"
-			(at 229.87 142.2401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 229.87 139.7001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
-			(at 227.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0953a08d-ef2b-4bff-a9a1-947b7fe51ee3")
-		)
-		(pin "4"
-			(uuid "d8d314ad-f804-438d-adb9-4fa2d943e50a")
-		)
-		(pin "1"
-			(uuid "cab4122f-2c6a-4a89-8bad-cb6fc2e56154")
-		)
-		(pin "3"
-			(uuid "b93f79b2-0000-4513-be2f-3514c5b08ef9")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 222.25 137.16 270)
-		(mirror x)
+		(at 260.35 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b072af3-c829-4830-9d5c-7762e71ffba8")
-		(property "Reference" "#PWR017"
-			(at 215.9 137.16 0)
+		(uuid "6c36dfb8-d90c-4cf7-a8ba-49ad2cb83d49")
+		(property "Reference" "#PWR032"
+			(at 260.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 216.916 137.16 90)
+			(at 260.35 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 137.16 0)
+			(at 260.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7367,7 +7434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 137.16 0)
+			(at 260.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 137.16 0)
+			(at 260.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,12 +7452,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fc4483e-b60b-4ab2-a83f-9c0c05a7b05f")
+			(uuid "5114f004-16c1-4be7-b87f-14b8feedfb4e")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR017")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7398,7 +7465,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 223.52 83.82 0)
+		(at 231.14 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7407,7 +7474,7 @@
 		(dnp no)
 		(uuid "6cbf845d-faba-4583-9836-8c5ef6e559fd")
 		(property "Reference" "C1"
-			(at 220.98 82.804 0)
+			(at 228.6 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7483,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 221.234 85.09 0)
+			(at 228.854 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7492,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 223.52 83.82 0)
+			(at 231.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 83.82 0)
+			(at 231.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7510,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 223.52 83.82 0)
+			(at 231.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,72 +7534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 242.57 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70d69aa6-e7d9-4215-b3d7-696051250e98")
-		(property "Reference" "#PWR024"
-			(at 242.57 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc90a1a4-0b16-4a78-9bce-3eaad418d900")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 158.75 82.55 0)
 		(unit 1)
@@ -7542,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a7035c-aad6-4197-9b46-b8040808fbf7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -7592,7 +7593,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7600,7 +7601,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 123.19 90)
+		(at 137.16 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7608,8 +7609,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7359c809-7478-4525-8833-fbec484ca306")
-		(property "Reference" "#PWR016"
-			(at 226.06 123.19 0)
+		(property "Reference" "#PWR010"
+			(at 140.97 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7619,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 218.44 123.1899 90)
+			(at 133.35 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 123.19 0)
+			(at 137.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 123.19 0)
+			(at 137.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 123.19 0)
+			(at 137.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +7660,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR016")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7675,7 +7676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77689232-fb38-4fe2-8972-ba3520c0731c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 260.35 31.75 0)
 			(effects
 				(font
@@ -7726,77 +7727,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 242.57 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a88efdb-2da9-451f-8329-f27f793c344f")
-		(property "Reference" "C3"
-			(at 240.03 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 240.284 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 242.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a7d7828-aaa4-4904-8f90-133d4c688141")
-		)
-		(pin "1"
-			(uuid "564ff544-22ea-4973-9e98-2bd4a5fde170")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "C3")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7804,7 +7735,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 223.52 77.47 0)
+		(at 231.14 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7812,8 +7743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b14c3da-a40b-467b-ba4c-2c21578067fe")
-		(property "Reference" "#PWR019"
-			(at 223.52 81.28 0)
+		(property "Reference" "#PWR017"
+			(at 231.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +7753,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 223.52 72.39 0)
+			(at 231.14 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +7761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 77.47 0)
+			(at 231.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +7770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 77.47 0)
+			(at 231.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7848,7 +7779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 223.52 77.47 0)
+			(at 231.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7793,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7870,7 +7801,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 232.41 83.82 0)
+		(at 240.03 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7878,8 +7809,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d1ae32c-6ce2-403c-b7aa-7decd87d4d77")
-		(property "Reference" "C2"
-			(at 229.87 82.804 0)
+		(property "Reference" "C3"
+			(at 237.49 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,8 +7818,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 230.124 85.09 0)
+		(property "Value" "100nF"
+			(at 239.268 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,8 +7827,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 232.41 83.82 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 240.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +7837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 83.82 0)
+			(at 240.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7846,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 232.41 83.82 0)
+			(at 240.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7863,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8122,6 +8053,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 231.14 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d1fe63-7e5c-4027-8494-f1f09a635d66")
+		(property "Reference" "#PWR019"
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 231.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "877ae39a-661e-4a48-aaaf-d6c06e12f0e4")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81709a9d-4dd2-411e-9aaa-b153314f1e97")
+		(property "Reference" "#PWR020"
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af75ecc6-5d5e-4bc3-9a50-320b5c7d0749")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 261.62 31.75 90)
 		(mirror x)
@@ -8271,7 +8334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8717ce00-c270-4d21-9495-c18fb2c59a92")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 212.09 30.48 0)
 			(effects
 				(font
@@ -8321,7 +8384,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8329,73 +8392,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 242.57 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d46af37-437f-4c56-9470-6565ce4c9874")
-		(property "Reference" "#PWR023"
-			(at 242.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 242.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 242.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "468626d5-02ca-4571-a43a-bcd622b6faf4")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 232.41 77.47 0)
+		(at 240.03 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8404,7 +8401,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dafae36-464f-46e8-99da-91f6795339fe")
 		(property "Reference" "#PWR021"
-			(at 232.41 81.28 0)
+			(at 240.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8410,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 232.41 72.39 0)
+			(at 240.03 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 77.47 0)
+			(at 240.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +8427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 77.47 0)
+			(at 240.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 232.41 77.47 0)
+			(at 240.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,35 +8590,34 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
-		(at 254 146.05 0)
+		(lib_id "power:GND")
+		(at 251.46 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0d83a17-e6ec-45d3-add1-101bcb250e7b")
-		(property "Reference" "H4"
-			(at 257.81 144.7799 0)
+		(uuid "b422d6ff-6776-4c1d-9078-00d7f4faad60")
+		(property "Reference" "#PWR026"
+			(at 251.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole_M3"
-			(at 257.81 147.3199 0)
+		(property "Value" "GND"
+			(at 251.46 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 149.86 0)
+		(property "Footprint" ""
+			(at 251.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8626,206 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 146.05 0)
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "321b3c82-db6b-425f-b336-f170a7d3ec96")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b6896a-c9d0-4908-95f8-ebdaf2d4c6e8")
+		(property "Reference" "#PWR028"
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "501c6ad6-efac-4b66-b223-f4badfa3ba18")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 251.46 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c076ef96-9ca8-4284-9dda-78ebd2ecd203")
+		(property "Reference" "#PWR025"
+			(at 251.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 251.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 251.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d5a366-abb2-4fcc-93f4-c644cbd8d74f")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
+		(at 86.36 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0d83a17-e6ec-45d3-add1-101bcb250e7b")
+		(property "Reference" "H4"
+			(at 90.17 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 90.17 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8834,7 @@
 			)
 		)
 		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
-			(at 254 146.05 0)
+			(at 86.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c31cdf80-7bd5-41e1-a171-dd8a516861ef")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -8717,7 +8912,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8725,7 +8920,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
-		(at 254 137.16 0)
+		(at 86.36 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8734,7 +8929,7 @@
 		(fields_autoplaced yes)
 		(uuid "d03b712b-a12a-4e93-a4e9-479b196d7b38")
 		(property "Reference" "H3"
-			(at 257.81 135.8899 0)
+			(at 90.17 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8938,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3"
-			(at 257.81 138.4299 0)
+			(at 90.17 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8947,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 140.97 0)
+			(at 86.36 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 137.16 0)
+			(at 86.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8965,7 @@
 			)
 		)
 		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
-			(at 254 137.16 0)
+			(at 86.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,6 +8977,72 @@
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 260.35 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25a24fb-9e44-44e1-b2b6-7f3170e5bbc8")
+		(property "Reference" "#PWR031"
+			(at 260.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 260.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 260.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07409b8c-0ca0-4938-a5ce-fbd14b436032")
+		)
+		(instances
+			(project "Encoders-LCD"
+				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8952,16 +9213,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 260.35 83.82 0)
+		(at 240.03 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2b0f9c8-5380-4c25-ae2f-1acc8ea4cd76")
-		(property "Reference" "C5"
-			(at 257.81 82.804 0)
+		(uuid "dd4d58da-a1d8-4d31-8f7a-e75f38db9470")
+		(property "Reference" "C4"
+			(at 237.49 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,8 +9230,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 258.064 85.09 0)
+		(property "Value" "100nF"
+			(at 239.268 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,8 +9239,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 260.35 83.82 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 240.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +9249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 83.82 0)
+			(at 240.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +9258,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 260.35 83.82 0)
+			(at 240.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,15 +9267,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c0b83e64-11f3-4b75-bca6-cb23a06420e7")
+			(uuid "0068559e-b940-4003-90fd-b587ab0f6712")
 		)
 		(pin "1"
-			(uuid "5b1e76e1-67cd-43ae-873a-911dcd5f89b6")
+			(uuid "89dc5487-e84a-4bd3-a9a9-1976c5f6414b")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9022,16 +9283,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 260.35 77.47 0)
+		(at 260.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e78eb347-761a-45a8-879d-0ac11915d56d")
-		(property "Reference" "#PWR029"
-			(at 260.35 81.28 0)
+		(uuid "debe2bb6-32ce-4a6f-b8a7-c2b1038b372e")
+		(property "Reference" "#PWR033"
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +9301,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 260.35 72.39 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 77.47 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +9318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 77.47 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 260.35 77.47 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,12 +9336,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29ae00dd-25d4-46a9-b54a-1138e76c3341")
+			(uuid "041195bb-c1d3-47d5-b0a5-038d98d12652")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9095,7 +9356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e862bfd9-0fa1-46ca-ad21-36769892ddb5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 212.09 67.31 0)
 			(effects
 				(font
@@ -9145,7 +9406,7 @@
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9351,78 +9612,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 269.24 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f814e8e7-0c46-4659-852d-5954e08ad992")
-		(property "Reference" "C6"
-			(at 266.7 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 266.954 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 269.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 269.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b76fde09-fbe7-4caf-9790-cce13386f91c")
-		)
-		(pin "1"
-			(uuid "f814c87b-49c4-43d7-a4fb-33dc37655d0e")
-		)
-		(instances
-			(project "Encoders-LCD"
-				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 227.33 123.19 0)
+		(at 142.24 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9431,7 +9622,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdacfa48-0b41-4395-b992-eddba92865e5")
 		(property "Reference" "J1"
-			(at 229.87 123.1899 0)
+			(at 144.78 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +9631,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 229.87 125.7299 0)
+			(at 144.78 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,7 +9640,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
-			(at 227.33 123.19 0)
+			(at 142.24 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 123.19 0)
+			(at 142.24 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9658,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 123.19 0)
+			(at 142.24 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,17 +9688,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 269.24 77.47 0)
+		(lib_id "Device:C_Small")
+		(at 251.46 90.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe24ecac-8e79-4ba5-872b-58cccf0e479e")
-		(property "Reference" "#PWR031"
-			(at 269.24 81.28 0)
+		(uuid "fe3686f1-2da4-4d14-90c8-614c11b9ab81")
+		(property "Reference" "C5"
+			(at 248.92 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 249.174 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 251.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,16 +9724,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 269.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 77.47 0)
+		(property "Datasheet" "~"
+			(at 251.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,8 +9733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 269.24 77.47 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,22 +9742,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 269.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "6e7e9453-9e00-4475-892e-c80ed8971abd")
 		)
 		(pin "1"
-			(uuid "8657beef-3664-4992-9cb6-7c1c4fcfb0e2")
+			(uuid "e3548faa-0463-468e-adcd-a29d1a696011")
 		)
 		(instances
 			(project "Encoders-LCD"
 				(path "/094609a0-ed7a-433b-8808-fc69fd09a73b"
-					(reference "#PWR031")
+					(reference "C5")
 					(unit 1)
 				)
 			)
