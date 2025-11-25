@@ -7,7 +7,7 @@ class HT16K33:
 
         # set up i2c connection
         # self.i2cAddress = i2cAddress
-        self.bus = I2C(0, scl=Pin(1), sda=Pin(0), freq=400000)
+        self.bus = I2C(0, scl=Pin(7), sda=Pin(6), freq=400000)
 
 
         # set initial HT16K33 state
