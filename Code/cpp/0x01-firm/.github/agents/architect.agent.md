@@ -1,6 +1,6 @@
 ---
 description: 'Generate architecture plans for embedded system features and refactoring'
-tools: ['codebase']
+tools: ['search/codebase']
 ---
 
 # Embedded Architecture Planning Mode

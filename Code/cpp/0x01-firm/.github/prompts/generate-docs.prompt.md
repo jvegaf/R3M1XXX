@@ -1,6 +1,6 @@
 ---
 agent: 'agent'
-tools: ['codebase']
+tools: ['search/codebase']
 description: 'Generate comprehensive documentation for embedded C++ projects'
 ---
 
