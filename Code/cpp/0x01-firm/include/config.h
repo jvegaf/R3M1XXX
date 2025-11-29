@@ -9,11 +9,11 @@
 // --- I2C ADDRESSES ---
 #define ADDR_POTS 0x48
 #define ADDR_MATRIX_MAIN 0x70 // 8 botones + 8 leds
-#define ADDR_DISPLAY 0x71     // 7 segmentos
-#define ADDR_MATRIX_AUX 0x72  // 16 botones
-#define ADDR_ENC_1 0x30       // Encoder 1
-#define ADDR_ENC_2 0x31       // Encoder 2
-#define ADDR_ENC_3 0x32       // Encoder 3
+#define ADDR_DISPLAY 0x72     // 7 segmentos
+#define ADDR_MATRIX_AUX 0x71  // 16 botones
+#define ADDR_ENC_1 0x32       // Encoder 1
+#define ADDR_ENC_2 0x34       // Encoder 2
+#define ADDR_ENC_3 0x36       // Encoder 3
 
 // --- MIDI SETTINGS ---
 #define MIDI_CH 1
