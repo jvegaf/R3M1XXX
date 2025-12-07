@@ -15,7 +15,7 @@ void setup() {
   Serial.println();
   // initialize everything, 0x00 is the i2c address for the first one (0x70 is
   // added in the class).
-  HT.begin(0x00);
+  HT.begin(0x02);
 }
 
 /****************************************************************/

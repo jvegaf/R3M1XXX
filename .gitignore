@@ -102,5 +102,5 @@ venv
 .cache/
 DemoBox/encoders-i2c/~encoders-i2c.kicad_pcb.lck
 DemoBox/encoders-i2c/~encoders-i2c.kicad_sch.lck
-Code/cpp/ht16k33_demo/.ccls
+.ccls
 *.FCBak
