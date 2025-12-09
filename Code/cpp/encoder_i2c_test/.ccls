@@ -3,11 +3,8 @@ clang
 %c -std=gnu11 -DMBED_TRAP_ERRORS_ENABLED=1 -Os -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -c -fdata-sections -ffunction-sections -fmessage-length=0 -fno-exceptions -fomit-frame-pointer -funsigned-char -mcpu=cortex-m0plus -mthumb -iprefix/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/cores/arduino @/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/variants/RASPBERRY_PI_PICO/includes.txt -nostdlib
 %cpp -Wvla -fno-rtti -std=gnu++14 -DMBED_TRAP_ERRORS_ENABLED=1 -Os -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -c -fdata-sections -ffunction-sections -fmessage-length=0 -fno-exceptions -fomit-frame-pointer -funsigned-char -mcpu=cortex-m0plus -mthumb -iprefix/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/cores/arduino @/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/variants/RASPBERRY_PI_PICO/includes.txt -nostdlib
 
--I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/test/include
--I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/test/src
--I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/test/.pio/libdeps/pico/EncoderTool/src
--I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/test/.pio/libdeps/pico/Bounce2/src
--I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/test/.pio/libdeps/pico/simple ht16k33 library/src
+-I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/include
+-I/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/encoder_i2c_test/src
 -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/libraries/Wire
 -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/cores/arduino
 -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated
@@ -54,15 +51,16 @@ clang
 -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/libraries/openamp_arduino/src
 -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/libraries/rpclib/src
 -I/home/th3g3ntl3man/.platformio/packages/framework-arduino-mbed/libraries/syntiant_ilib/src
--I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1
--I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi
--I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include
--I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed
+-I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.3.1
+-I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.3.1/arm-none-eabi
+-I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.3.1/include-fixed
+-I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.3.1/include
 -I/home/th3g3ntl3man/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include
 
--DPLATFORMIO=60115
+-DPLATFORMIO=60118
 -DARDUINO_RASPBERRY_PI_PICO
 -DARDUINO_ARCH_RP2040
+-DUSBD_MAX_POWER_MA=500
 -DARM_MATH_CM0PLUS
 -D__CMSIS_RTOS
 -DCOMPONENT_FLASHIAP=1
@@ -85,7 +83,7 @@ clang
 -DDEVICE_USTICKER=1
 -DDEVICE_WATCHDOG=1
 -D__MBED__=1
--DMBED_BUILD_TIMESTAMP=1720439093.433086
+-DMBED_BUILD_TIMESTAMP=1751287176.5595922
 -D__MBED_CMSIS_RTOS_CM
 -DMBED_MPU_CUSTOM
 -DMBEDTLS_ENTROPY_NV_SEED
@@ -109,8 +107,8 @@ clang
 -DTOOLCHAIN_GCC_ARM
 -DMBED_NO_GLOBAL_USING_DIRECTIVE=1
 -DCORE_MAJOR=4
--DCORE_MINOR=1
--DCORE_PATCH=5
+-DCORE_MINOR=4
+-DCORE_PATCH=1
 -DUSE_ARDUINO_PINOUT
 -DARDUINO=10810
 -DARDUINO_ARCH_MBED

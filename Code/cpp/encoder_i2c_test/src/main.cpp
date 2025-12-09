@@ -3,7 +3,7 @@
 
 // #define encoder_addr 0x38 // 0x32 or 0x36 or 0x38
 
-byte enc_addrs[] = {0x32, 0x36, 0x38};
+byte enc_addrs[] = {0x32, 0x34, 0x36};
 int16_t pValues[] = {0, 0, 0};
 boolean pPressed[] = {false, false, false};
 
