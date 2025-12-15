@@ -1,12 +1,12 @@
 (footprint "SW_PUSH_6mm_LED"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm")
 	(tags "tact sw push 6mm")
 	(property "Reference" "REF**"
-		(at 0 -4.25 0)
+		(at -4.425 -4.85 0)
 		(layer "F.SilkS")
 		(uuid "1a9ea655-3b8c-45cf-a167-fb20f57f80a8")
 		(effects
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -3.25 -2.25 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2b95773e-3785-497b-8230-9dc65b3078be")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -78,8 +65,8 @@
 		(uuid "262c0cc1-ee7f-4952-ab75-b1f21a059410")
 	)
 	(fp_line
-		(start -2.25 3.25)
-		(end 2.25 3.25)
+		(start -2.1 4.575)
+		(end 2.4 4.575)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,8 +75,28 @@
 		(uuid "c7dbabf5-caa2-4471-a8fe-3b25812cf0ea")
 	)
 	(fp_line
-		(start 2.25 -3.25)
-		(end -2.25 -3.25)
+		(start -1.08125 -0.7125)
+		(end 1.09375 -0.6875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a00f9761-7f6d-4026-9c44-50c7060463e5")
+	)
+	(fp_line
+		(start 0.00625 -1.9)
+		(end 0.00625 1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2ef62ca-851c-4db3-aa9b-d87494a24fc8")
+	)
+	(fp_line
+		(start 2.15 -4.4)
+		(end -2.35 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -106,6 +113,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ae3383f5-49b9-4eeb-b0dd-8d826449e927")
+	)
+	(fp_poly
+		(pts
+			(xy -0.79375 0.55) (xy 0.00625 -0.7) (xy 0.80625 0.575) (xy -0.79375 0.575)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d7f8f674-35a7-44c6-8db8-9fab130a1230")
 	)
 	(fp_line
 		(start 0 0)
@@ -304,7 +323,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "15eeae1b-9f59-420a-94ad-0451c2e6e178")
 	)
@@ -367,6 +386,7 @@
 		(remove_unused_layers no)
 		(uuid "98f11757-2b47-4be5-a328-ec20dc47253e")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H4.3mm.wrl"
 		(offset
 			(xyz -3 2.5 0)

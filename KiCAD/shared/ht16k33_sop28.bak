@@ -617,7 +617,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
 			(at 0 0 0)
 			(effects
 				(font
