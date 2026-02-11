@@ -1,34 +1,45 @@
+#include <7semi_ADS7830.h>
 #include <Arduino.h>
-#include <Wire.h>
-#include <Adafruit_ADS7830.h>
 
-Adafruit_ADS7830 ad7830;
+ADS7830_7semi adc; // Create ADS7830 object
 
 void setup() {
   Serial.begin(115200);
-  while (!Serial) delay(10); // Wait for console to open
-  
-  Serial.println("Adafruit ADS7830 Test by Limor Fried/Ladyada");
+  Wire.begin();
 
-  // Possible arguments to begin():
-  // begin(); // Uses default I2C address 0x48 and Wire
-  // begin(0x49); // Uses I2C address 0x49 and Wire
-  // begin(0x48, &Wire1); // Uses I2C address 0x48 and Wire1
-
-  if (!ad7830.begin()) {
-    Serial.println("Failed to initialize ADS7830!");
-    while (1);
+  if (adc.begin()) {
+    Serial.println("ADS7830 initialized");
+  } else {
+    Serial.println("ADS7830 not found!");
+    while (1)
+      ;
   }
+
+  // Enable internal 2.5V reference voltage
+  // Use DISABLE to use external voltage via VREF pin
+  adc.intRef(ENABLE);
 }
 
 void loop() {
-  for (uint8_t ch = 0; ch <= 7; ch++) {
-    uint8_t value = ad7830.readADCsingle(ch);
-    Serial.print(value);
-    if (ch < 7) {
-      Serial.print(",\t");
-    }
+  // Array to hold readings from CH0 to CH7
+  uint8_t values[8];
+
+  // Read all 8 channels using loop
+  for (uint8_t i = 0; i < 8; i++) {
+    values[i] = adc.readSingleCh(i);
   }
+
+  // Convert ADC reading (0–255) to voltage using scale factor
+
+  Serial.println("=== Single-Ended Readings  ===");
+  for (uint8_t i = 0; i < 8; i++) {
+    Serial.print("CH");
+    Serial.print(i);
+    Serial.print(": ");
+    Serial.println(values[i]); // Print 3 decimal places
+  }
+  Serial.println("========================================");
   Serial.println();
-  delay(100);
+
+  delay(1000);
 }

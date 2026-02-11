@@ -1,8 +1,0 @@
-[
-    {
-        "command": "/home/th3g3ntl3man/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/micro/src/main.o -c -Wno-error=narrowing -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -DPLATFORMIO=60118 -DARDUINO_AVR_MICRO -Iinclude -Isrc src/main.cpp",
-        "directory": "/home/th3g3ntl3man/Code/R3M1XXX/Code/cpp/i2c_discover",
-        "file": "src/main.cpp",
-        "output": ".pio/build/micro/src/main.o"
-    }
-]

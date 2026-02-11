@@ -104,3 +104,4 @@ DemoBox/encoders-i2c/~encoders-i2c.kicad_pcb.lck
 DemoBox/encoders-i2c/~encoders-i2c.kicad_sch.lck
 .ccls
 *.FCBak
+compile_commands.json
