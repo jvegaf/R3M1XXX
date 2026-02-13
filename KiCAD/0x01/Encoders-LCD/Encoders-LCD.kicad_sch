@@ -4506,7 +4506,7 @@
 		)
 		(uuid "2dc3e6ee-a241-4698-b426-36c8a137bb3c")
 	)
-	(label "SEG1"
+	(label "SEG5"
 		(at 66.04 104.14 180)
 		(effects
 			(font
@@ -4586,7 +4586,7 @@
 		)
 		(uuid "59f7f09c-5a44-41cf-b72d-898781677a01")
 	)
-	(label "SEG2"
+	(label "SEG4"
 		(at 66.04 116.84 180)
 		(effects
 			(font
