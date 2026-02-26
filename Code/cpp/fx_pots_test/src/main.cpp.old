@@ -1,0 +1,48 @@
+#include <7semi_ADS7830.h>
+#include <Arduino.h>
+
+ADS7830_7semi adc; // Create ADS7830 object
+
+void setup() {
+  Serial.begin(115200);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for native USB
+  }
+  Serial.println("ADS7830 Test");
+  Wire.begin();
+  if (adc.begin()) {
+    Serial.println("ADS7830 initialized");
+  } else {
+    Serial.println("ADS7830 not found!");
+    while (1)
+      ;
+  }
+
+  // Enable internal 2.5V reference voltage
+  // Use DISABLE to use external voltage via VREF pin
+  adc.intRef(DISABLE);
+}
+
+void loop() {
+  // Array to hold readings from CH0 to CH7
+  uint8_t values[8];
+
+  // Read all 8 channels using loop
+  for (uint8_t i = 0; i < 8; i++) {
+    values[i] = adc.readSingleCh(i);
+  }
+
+  // Convert ADC reading (0–255) to voltage using scale factor
+
+  Serial.println("=== Single-Ended Readings  ===");
+  for (uint8_t i = 0; i < 8; i++) {
+    Serial.print("CH");
+    Serial.print(i);
+    Serial.print(": ");
+    Serial.println(values[i]); // Print 3 decimal places
+  }
+  Serial.println("========================================");
+  Serial.println();
+
+  delay(1000);
+}
