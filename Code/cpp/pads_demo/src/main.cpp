@@ -5,20 +5,20 @@
 PixKit pixels(PIXEL_PIN, 16);
 
 void setup() {
-  Serial.begin(9600);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB
-  }
-  Serial.println("Hello, World!");
   pixels.begin();
+  Serial.begin(9600);
+  Serial.println("Hello, World!");
   Serial.println("pixels initializated");
+  // while (!Serial) {
+  //   ; // wait for serial port to connect. Needed for native USB
+  // }
 }
 
 void loop() {
   pixels.setRainbow();
   Serial.println("pixels rainbow set");
-  // delay(1000);
-  // pixels.clear();
-  // Serial.println("pixels cleared");
+  delay(1000);
+  pixels.clear();
+  Serial.println("pixels cleared");
   delay(1000);
 }
