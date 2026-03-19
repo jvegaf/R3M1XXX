@@ -15,11 +15,8 @@ void setup() {
 }
 
 void loop() {
-  for (int i = 0; i < pixels.numPixels(); i++) {
-    pixels.setPixel(i, pixels.Color(255, 0, 0)); // Red
-    pixels.show();
-    delay(100);
-    pixels.clear();
-    delay(100);
-  }
+  pixels.clear();
+  delay(1000);
+  pixels.setRainbow();
+  delay(1000);
 }

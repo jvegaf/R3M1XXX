@@ -1,13 +1,20 @@
 #include "pix_kit.h"
+#include "base.h"
 
 void PixKit::begin() {
   np_p->begin();
   np_p->setBrightness(30); // Set brightness to 50 out of 255
   np_p->show();            // Initialize all pixels to 'off'
+  for (int i = 0; i < NUM_PIXELS; i++) {
+    np_p->setPixelColor(pix_pos[i] - 1, 255, 0, 0);
+    np_p->show();
+    delay(50);
+  }
+  np_p->clear();
 }
 void PixKit::setPixel(uint8_t n, uint32_t c) {
   if (n < num_pixels) {
-    np_p->setPixelColor(n, c);
+    np_p->setPixelColor(pix_pos[n] - 1, c);
   }
 }
 
