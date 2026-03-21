@@ -1,22 +1,39 @@
 #include "base.h"
 #include "pix_kit.h"
 #include <Arduino.h>
+#include "ht16k33.h"
 
 PixKit pixels(PIXEL_PIN, NUM_PIXELS);
+HT16K33 HT;
+
+volatile unsigned long lastRead = 0;
+volatile uint8_t lastKey = 0;
+
+void readPad() {
+  int8_t key;
+  key = HT.readKey();
+  if (key != 0) { // key is pressed
+    if (key != lastKey) {
+      Serial.print(F("Key pressed: "));
+      Serial.println(key);
+      lastKey = key;
+    }
+  }
+  lastRead = millis();
+}
 
 void setup() {
+  Serial.begin(115200);
   pixels.begin();
-  Serial.begin(9600);
-  Serial.println("Hello, World!");
-  Serial.println("pixels initializated");
-  // while (!Serial) {
-  //   ; // wait for serial port to connect. Needed for native USB
-  // }
+  HT.begin(HT16K33_ADDRESS);
+  lastRead = millis();
+  Serial.println("Begin");
 }
 
 void loop() {
-  pixels.clear();
-  delay(1000);
+  unsigned long currentTime = millis();
   pixels.setRainbow();
-  delay(1000);
+  if (lastRead + READ_INTERVAL_MS < currentTime ) {
+    readPad();
+  }
 }
