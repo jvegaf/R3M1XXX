@@ -1,10 +1,14 @@
 #include "base.h"
 #include "ht16k33.h"
 #include "pix_kit.h"
+#include <Adafruit_TinyUSB.h>
 #include <Arduino.h>
 #include <MIDI.h>
+#include <Wire.h>
 
-MIDI_CREATE_DEFAULT_INSTANCE();
+// USB MIDI object
+Adafruit_USBD_MIDI usbMidi;
+MIDI_CREATE_INSTANCE(Adafruit_USBD_MIDI, usbMidi, MIDI);
 
 PixKit pixels(PIXEL_PIN, NUM_PIXELS);
 HT16K33 HT;
@@ -24,6 +28,11 @@ void setup() {
   //   ; // wait for serial port to connect. Needed for native USB port only
   // }
   // Serial.println("Begin");
+  Wire.setSDA(PIN_I2C_SDA);
+  Wire.setSCL(PIN_I2C_SCL);
+  Wire.begin();
+  TinyUSBDevice.setManufacturerDescriptor("fs0ciety");
+  TinyUSBDevice.setProductDescriptor("R3M1XXX 0x01");
   pixels.begin();
   HT.begin(HT16K33_ADDRESS);
   midiSetup();

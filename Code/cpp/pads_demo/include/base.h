@@ -2,7 +2,9 @@
 
 #include <Arduino.h>
 
-#define PIXEL_PIN 4
+#define PIXEL_PIN 6
+#define PIN_I2C_SDA 4
+#define PIN_I2C_SCL 5
 #define NUM_PIXELS 16
 #define HT16K33_ADDRESS 0x01
 #define READ_INTERVAL_MS 20
